@@ -44,7 +44,7 @@ where
     }
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Clone, Debug, Deserialize)]
 pub struct ControlPoint1d {
     #[serde(deserialize_with = "try_dearray")]
     pub x: f64,
@@ -52,13 +52,13 @@ pub struct ControlPoint1d {
     pub y: f64,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Clone, Debug, Deserialize)]
 pub struct ControlPoint3d {
     pub x: [f64; 3],
     pub y: [f64; 3],
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Clone, Debug, Deserialize)]
 pub struct Bezier1d {
     #[serde(rename = "i")]
     pub in_value: ControlPoint1d,
@@ -66,7 +66,7 @@ pub struct Bezier1d {
     pub out_value: ControlPoint1d,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Clone, Debug, Deserialize)]
 pub struct Bezier3d {
     #[serde(rename = "i")]
     pub in_value: ControlPoint3d,
@@ -74,7 +74,7 @@ pub struct Bezier3d {
     pub out_value: ControlPoint3d,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Clone, Debug, Deserialize)]
 pub struct SpatialBezier {
     #[serde(rename = "ti")]
     pub in_value: Vec<f64>,
