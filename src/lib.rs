@@ -43,6 +43,10 @@ pub struct Bodymovin {
 
 impl Bodymovin {
     pub fn load(path: impl AsRef<Path>) -> Result<Self, Error> {
-        Ok(serde_json::from_slice(&std::fs::read(path)?)?)
+        Self::from_bytes(std::fs::read(path)?)
+    }
+
+    pub fn from_bytes(bytes: impl AsRef<[u8]>) -> Result<Self, Error> {
+        serde_json::from_slice(bytes.as_ref()).map_err(Error::from)
     }
 }
