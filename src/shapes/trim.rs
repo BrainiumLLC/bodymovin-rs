@@ -4,13 +4,13 @@ use serde::Deserialize;
 #[derive(Debug, Deserialize)]
 pub struct Trim {
     #[serde(rename = "mn")]
-    pub match_name: String,
+    pub match_name: Option<String>,
     #[serde(rename = "nm")]
-    pub name: String,
+    pub name: Option<String>,
     #[serde(rename = "s")]
-    pub start: properties::EitherValue,
+    pub start: properties::Scalar,
     #[serde(rename = "e")]
-    pub end: properties::EitherValue,
+    pub end: properties::Scalar,
     #[serde(rename = "o")]
-    pub offset: properties::EitherValue,
+    pub offset: properties::Scalar,
 }

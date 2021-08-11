@@ -26,21 +26,15 @@ impl Default for MaskMode {
 }
 
 #[derive(Debug, Deserialize)]
-pub enum MaskVertices {
-    Shape(properties::Shape),
-    ShapeKeyframed(properties::ShapeKeyframed),
-}
-
-#[derive(Debug, Deserialize)]
 pub struct Mask {
     #[serde(rename = "inv")]
     pub inverted: bool,
     #[serde(rename = "nm")]
-    pub name: String,
+    pub name: Option<String>,
     #[serde(rename = "pt")]
-    pub points: MaskVertices,
-    #[serde(rename = "o", default = "properties::EitherValue::hundred")]
-    pub opacity: properties::EitherValue,
+    pub points: properties::Shape,
+    #[serde(rename = "o", default = "properties::Scalar::hundred")]
+    pub opacity: properties::Scalar,
     #[serde(default)]
     pub mode: MaskMode,
 }

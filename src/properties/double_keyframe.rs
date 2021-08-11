@@ -4,7 +4,7 @@ use serde::Deserialize;
 #[derive(Debug, Deserialize)]
 pub struct DoubleKeyframe {
     #[serde(rename = "s")]
-    pub start_value: f64,
+    pub start_value: Option<properties::ScalarValue>,
     #[serde(rename = "t")]
     pub start_time: f64,
     #[serde(rename = "h", deserialize_with = "util::bool_from_int", default)]

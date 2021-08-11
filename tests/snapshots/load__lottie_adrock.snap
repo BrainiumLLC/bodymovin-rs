@@ -1,0 +1,123 @@
+---
+source: tests/load.rs
+expression: loaded
+---
+Bodymovin {
+    in_point: 0.0,
+    out_point: 392.0,
+    frame_rate: 30.0,
+    width: 690,
+    is_3d: false,
+    height: 913,
+    version: "4.0.0",
+    name: None,
+    layers: [
+        Shape(
+            Shape {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position: Property {
+                        value: Fixed(
+                            [
+                                347.285,
+                                1375.72,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    scale: Property {
+                        value: Fixed(
+                            [
+                                100.0,
+                                100.0,
+                                100.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    opacity: Property {
+                        value: Fixed(
+                            100.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 0,
+                html_class: None,
+                html_id: None,
+                in_point: 339.0,
+                out_point: 392.0,
+                start_time: 0.0,
+                name: Some(
+                    "Shape Layer 2",
+                ),
+                masks: [],
+                effects: [],
+                stretch: 1.0,
+                parent: Some(
+                    2,
+                ),
+                shapes: [],
+            },
+        ),
+    ],
+}

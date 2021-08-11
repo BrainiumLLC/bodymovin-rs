@@ -1,54 +1,46 @@
 mod double_keyframe;
 mod multi_dimensional;
-mod multi_dimensional_keyframed;
-mod offset_keyframe;
+mod scalar;
 mod shape;
-mod shape_keyframed;
-mod shape_prop;
-mod shape_prop_keyframe;
-mod value;
-mod value_keyframe;
-mod value_keyframed;
 
-pub use self::{
-    double_keyframe::*, multi_dimensional::*, multi_dimensional_keyframed::*, offset_keyframe::*,
-    shape::*, shape_keyframed::*, shape_prop::*, shape_prop_keyframe::*, value::*,
-    value_keyframe::*, value_keyframed::*,
-};
-use crate::util;
+pub use self::{double_keyframe::*, multi_dimensional::*, scalar::*, shape::*};
 use serde::{de::Deserializer, Deserialize};
 
-fn detuple<'de, D>(deserializer: D) -> Result<f64, D::Error>
-where
-    D: Deserializer<'de>,
-{
-    <(f64,)>::deserialize(deserializer).map(|(n,)| n)
+#[derive(Debug, Deserialize)]
+#[serde(untagged)]
+enum Destructurer {
+    Bare(f64),
+    Tuple((f64,)),
+    Array([f64; 1]),
 }
 
-fn dearray<'de, D>(deserializer: D) -> Result<f64, D::Error>
-where
-    D: Deserializer<'de>,
-{
-    <[f64; 1]>::deserialize(deserializer).map(|[n]| n)
-}
-
-fn try_dearray<'de, D>(deserializer: D) -> Result<f64, D::Error>
-where
-    D: Deserializer<'de>,
-{
-    let value = serde_json::Value::deserialize(deserializer)?;
-    if let Some(value) = value.as_f64() {
-        Ok(value)
-    } else {
-        dearray(value).map_err(serde::de::Error::custom)
+impl Into<f64> for Destructurer {
+    fn into(self) -> f64 {
+        match self {
+            Self::Bare(value) | Self::Tuple((value,)) | Self::Array([value]) => value,
+        }
     }
+}
+
+fn destructure<'de, D>(deserializer: D) -> Result<f64, D::Error>
+where
+    D: Deserializer<'de>,
+{
+    Destructurer::deserialize(deserializer).map(Into::into)
+}
+
+fn option_destructure<'de, D>(deserializer: D) -> Result<Option<f64>, D::Error>
+where
+    D: Deserializer<'de>,
+{
+    Ok(dbg!(<Option<Destructurer>>::deserialize(deserializer))?.map(Into::into))
 }
 
 #[derive(Clone, Debug, Deserialize)]
 pub struct ControlPoint1d {
-    #[serde(deserialize_with = "try_dearray")]
+    #[serde(deserialize_with = "destructure")]
     pub x: f64,
-    #[serde(deserialize_with = "try_dearray")]
+    #[serde(deserialize_with = "destructure")]
     pub y: f64,
 }
 
@@ -82,96 +74,51 @@ pub struct SpatialBezier {
     pub out_value: Vec<f64>,
 }
 
-#[derive(Debug)]
-pub enum MaybeAnimated<F, A>
-where
-    F: for<'r> Deserialize<'r>,
-    A: for<'r> Deserialize<'r>,
-{
+#[derive(Debug, Deserialize)]
+#[serde(untagged)]
+pub enum Value<F, A> {
     Fixed(F),
-    Animated(A),
+    Animated(Vec<A>),
 }
 
-impl<'de, F, A> Deserialize<'de> for MaybeAnimated<F, A>
+impl<F, A> Default for Value<F, A>
 where
-    F: for<'r> Deserialize<'r>,
-    A: for<'r> Deserialize<'r>,
+    F: Default,
 {
-    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
-    where
-        D: Deserializer<'de>,
-    {
-        // lol https://github.com/serde-rs/serde/pull/1392
-        use serde::__private::de::{ContentDeserializer, TaggedContentVisitor};
-        use serde_repr::Deserialize_repr;
+    fn default() -> Self {
+        Self::Fixed(F::default())
+    }
+}
 
-        #[derive(Debug, Deserialize_repr)]
-        #[repr(u8)]
-        enum MaybeAnimatedTag {
-            Fixed = 0,
-            Animated = 1,
-        }
+#[derive(Debug, Deserialize)]
+pub struct Property<F, A> {
+    #[serde(rename = "k")]
+    pub value: Value<F, A>,
+    #[serde(rename = "x")]
+    pub expression: Option<String>,
+    #[serde(rename = "ix")]
+    pub index: Option<i64>,
+}
 
-        let tagged =
-            deserializer.deserialize_any(TaggedContentVisitor::<MaybeAnimatedTag>::new(
-                "a",
-                "internally tagged enum MaybeAnimated",
-            ))?;
-        match tagged.tag {
-            MaybeAnimatedTag::Fixed => {
-                log::info!("parsing `{}`", util::type_name::<F>());
-                F::deserialize(ContentDeserializer::<D::Error>::new(tagged.content))
-                    .map(MaybeAnimated::Fixed)
-            }
-            MaybeAnimatedTag::Animated => {
-                log::info!("parsing `{}`", util::type_name::<A>());
-                A::deserialize(ContentDeserializer::<D::Error>::new(tagged.content))
-                    .map(MaybeAnimated::Animated)
-            }
+impl<F, A> Default for Property<F, A>
+where
+    F: Default,
+{
+    fn default() -> Self {
+        Self {
+            value: Value::default(),
+            expression: None,
+            index: None,
         }
     }
 }
 
-pub type EitherMultiDimensional = MaybeAnimated<MultiDimensional, MultiDimensionalKeyframed>;
-
-impl EitherMultiDimensional {
-    pub(crate) fn fixed(value: Vec<f64>) -> Self {
-        Self::Fixed(MultiDimensional {
-            value,
-            ..Default::default()
-        })
-    }
-
-    pub(crate) fn zero() -> Self {
-        Self::fixed(vec![0.0; 3])
-    }
-
-    pub(crate) fn hundred() -> Self {
-        Self::fixed(vec![100.0; 3])
-    }
-}
-
-pub type EitherShape = MaybeAnimated<Shape, ShapeKeyframed>;
-
-pub type EitherValue = MaybeAnimated<Value, ValueKeyframed>;
-
-impl EitherValue {
-    pub(crate) fn fixed(value: f64) -> Self {
-        Self::Fixed(Value {
-            value,
-            ..Default::default()
-        })
-    }
-
-    pub(crate) fn zero() -> Self {
-        Self::fixed(0.0)
-    }
-
-    pub(crate) fn one() -> Self {
-        Self::fixed(1.0)
-    }
-
-    pub(crate) fn hundred() -> Self {
-        Self::fixed(100.0)
+impl<F, A> Property<F, A> {
+    pub(crate) fn fixed(value: F) -> Self {
+        Self {
+            value: Value::Fixed(value),
+            expression: None,
+            index: None,
+        }
     }
 }

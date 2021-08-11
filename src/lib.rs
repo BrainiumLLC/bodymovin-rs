@@ -27,14 +27,14 @@ pub struct Bodymovin {
     pub frame_rate: f64,
     #[serde(rename = "w")]
     pub width: i64,
-    #[serde(rename = "ddd", deserialize_with = "util::bool_from_int")]
+    #[serde(rename = "ddd", deserialize_with = "util::bool_from_int", default)]
     pub is_3d: bool,
     #[serde(rename = "h")]
     pub height: i64,
     #[serde(rename = "v")]
     pub version: String,
     #[serde(rename = "nm")]
-    pub name: String,
+    pub name: Option<String>,
     #[serde(default)]
     pub layers: Vec<layers::Layer>,
     // pub assets: Vec<Asset>,
@@ -43,6 +43,10 @@ pub struct Bodymovin {
 
 impl Bodymovin {
     pub fn load(path: impl AsRef<Path>) -> Result<Self, Error> {
-        Ok(serde_json::from_slice(&std::fs::read(path)?)?)
+        Self::from_bytes(std::fs::read(path)?)
+    }
+
+    pub fn from_bytes(bytes: impl AsRef<[u8]>) -> Result<Self, Error> {
+        serde_json::from_slice(bytes.as_ref()).map_err(Error::from)
     }
 }

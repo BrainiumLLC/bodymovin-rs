@@ -1,0 +1,310 @@
+---
+source: tests/load.rs
+expression: loaded
+---
+Bodymovin {
+    in_point: 0.0,
+    out_point: 99.0,
+    frame_rate: 30.0,
+    width: 1920,
+    is_3d: false,
+    height: 1080,
+    version: "4.0.0",
+    name: None,
+    layers: [
+        PreComp(
+            PreComp,
+        ),
+        Shape(
+            Shape {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                960.25,
+                                539.922,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position: Property {
+                        value: Fixed(
+                            [
+                                960.0,
+                                540.328,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    scale: Property {
+                        value: Fixed(
+                            [
+                                100.0,
+                                100.0,
+                                100.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    opacity: Property {
+                        value: Fixed(
+                            100.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                bounds: Some(
+                    Bounds {
+                        left: 0.0,
+                        top: 0.0,
+                        bottom: 1080.0,
+                        right: 1921.0,
+                    },
+                ),
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 1,
+                html_class: None,
+                html_id: None,
+                in_point: 0.0,
+                out_point: 206.0,
+                start_time: 0.0,
+                name: Some(
+                    "BG Outlines",
+                ),
+                masks: [],
+                effects: [],
+                stretch: 1.0,
+                parent: None,
+                shapes: [
+                    Group(
+                        Group {
+                            match_name: None,
+                            name: Some(
+                                "Group 1",
+                            ),
+                            number_of_properties: None,
+                            items: [
+                                Shape(
+                                    Shape {
+                                        match_name: None,
+                                        name: Some(
+                                            "Path 1",
+                                        ),
+                                        direction: None,
+                                        closed: true,
+                                        vertices: Property {
+                                            value: Fixed(
+                                                ShapeValue {
+                                                    closed: None,
+                                                    in_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    out_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    vertices: [
+                                                        (
+                                                            -960.0,
+                                                            539.672,
+                                                        ),
+                                                        (
+                                                            960.0,
+                                                            539.672,
+                                                        ),
+                                                        (
+                                                            960.0,
+                                                            -539.672,
+                                                        ),
+                                                        (
+                                                            -960.0,
+                                                            -539.672,
+                                                        ),
+                                                    ],
+                                                },
+                                            ),
+                                            expression: None,
+                                            index: None,
+                                        },
+                                    },
+                                ),
+                                Fill(
+                                    Fill {
+                                        match_name: None,
+                                        name: Some(
+                                            "Fill 1",
+                                        ),
+                                        fill_enabled: Some(
+                                            true,
+                                        ),
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: None,
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    255.0,
+                                                    241.0,
+                                                    213.0,
+                                                    255.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: None,
+                                        },
+                                    },
+                                ),
+                                Transform(
+                                    Transform {
+                                        name: None,
+                                        anchor_point: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: None,
+                                        },
+                                        position: Property {
+                                            value: Fixed(
+                                                [
+                                                    960.25,
+                                                    539.922,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: None,
+                                        },
+                                        scale: Property {
+                                            value: Fixed(
+                                                [
+                                                    100.0,
+                                                    100.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: None,
+                                        },
+                                        rotation: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: None,
+                                        },
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: None,
+                                        },
+                                        skew: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: None,
+                                        },
+                                        skew_axis: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: None,
+                                        },
+                                    },
+                                ),
+                            ],
+                        },
+                    ),
+                ],
+            },
+        ),
+    ],
+}

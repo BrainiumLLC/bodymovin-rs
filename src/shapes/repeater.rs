@@ -4,13 +4,13 @@ use serde::Deserialize;
 #[derive(Debug, Deserialize)]
 pub struct Repeater {
     #[serde(rename = "mn")]
-    pub match_name: String,
+    pub match_name: Option<String>,
     #[serde(rename = "nm")]
-    pub name: String,
-    #[serde(rename = "c", default = "properties::EitherValue::one")]
-    pub copies: properties::EitherValue,
-    #[serde(rename = "o", default = "properties::EitherValue::zero")]
-    pub offset: properties::EitherValue,
+    pub name: Option<String>,
+    #[serde(rename = "c", default = "properties::Scalar::one")]
+    pub copies: properties::Scalar,
+    #[serde(rename = "o", default = "properties::Scalar::zero")]
+    pub offset: properties::Scalar,
     #[serde(rename = "m", default)]
     pub composite: helpers::Composite,
     #[serde(rename = "tr")]

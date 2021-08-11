@@ -6,9 +6,9 @@ pub struct Fill {
     #[serde(rename = "ix")]
     pub index: i64,
     #[serde(rename = "mn")]
-    pub match_name: String,
+    pub match_name: Option<String>,
     #[serde(rename = "nm")]
-    pub name: String,
+    pub name: Option<String>,
     #[serde(rename = "ef")]
     pub effects: (
         effects::Point,

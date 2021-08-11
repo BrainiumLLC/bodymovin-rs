@@ -1,10 +1,5 @@
 use serde::de::{self, Deserialize as _, Deserializer, Unexpected};
 
-pub fn type_name<T>() -> &'static str {
-    let name = std::any::type_name::<T>();
-    name.split("::").last().unwrap_or_else(|| name)
-}
-
 pub const fn one_please() -> f64 {
     1.0
 }

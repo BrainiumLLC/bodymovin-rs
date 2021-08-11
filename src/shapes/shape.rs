@@ -4,11 +4,12 @@ use serde::Deserialize;
 #[derive(Debug, Deserialize)]
 pub struct Shape {
     #[serde(rename = "mn")]
-    pub match_name: String,
+    pub match_name: Option<String>,
     #[serde(rename = "nm")]
-    pub name: String,
+    pub name: Option<String>,
     #[serde(rename = "d")]
-    pub direction: f64,
+    pub direction: Option<f64>,
+    pub closed: bool,
     #[serde(rename = "ks")]
-    pub vertices: properties::EitherShape,
+    pub vertices: properties::Shape,
 }
