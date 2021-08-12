@@ -165,7 +165,9 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: true,
+                                        closed: Some(
+                                            true,
+                                        ),
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {

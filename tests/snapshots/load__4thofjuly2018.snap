@@ -1,0 +1,3174 @@
+---
+source: tests/load.rs
+expression: loaded
+---
+Bodymovin {
+    in_point: 0.0,
+    out_point: 285.0,
+    frame_rate: 30.0,
+    width: 1000,
+    is_3d: false,
+    height: 1000,
+    version: "5.7.5",
+    name: Some(
+        "4thofjuly2018",
+    ),
+    layers: [
+        Shape(
+            Shape {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            1,
+                        ),
+                    },
+                    position: Property {
+                        value: Fixed(
+                            [
+                                496.0,
+                                550.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            2,
+                        ),
+                    },
+                    scale: Property {
+                        value: Fixed(
+                            [
+                                -100.0,
+                                100.0,
+                                100.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            6,
+                        ),
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            10,
+                        ),
+                    },
+                    opacity: Property {
+                        value: Fixed(
+                            100.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            11,
+                        ),
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                bounds: None,
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 1,
+                html_class: None,
+                html_id: None,
+                in_point: 199.0,
+                out_point: 1099.0,
+                start_time: 199.0,
+                name: Some(
+                    "Shape Layer 17",
+                ),
+                masks: [],
+                effects: [],
+                stretch: 1.0,
+                parent: None,
+                shapes: [
+                    Group(
+                        Group {
+                            match_name: Some(
+                                "ADBE Vector Group",
+                            ),
+                            name: Some(
+                                "Shape 1",
+                            ),
+                            number_of_properties: Some(
+                                3,
+                            ),
+                            items: [
+                                Shape(
+                                    Shape {
+                                        match_name: Some(
+                                            "ADBE Vector Shape - Group",
+                                        ),
+                                        name: Some(
+                                            "Path 1",
+                                        ),
+                                        direction: None,
+                                        closed: None,
+                                        vertices: Property {
+                                            value: Fixed(
+                                                ShapeValue {
+                                                    closed: Some(
+                                                        false,
+                                                    ),
+                                                    in_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    out_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    vertices: [
+                                                        (
+                                                            -169.0,
+                                                            109.0,
+                                                        ),
+                                                        (
+                                                            -691.5,
+                                                            255.0,
+                                                        ),
+                                                    ],
+                                                },
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Stroke(
+                                    Stroke {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Stroke",
+                                        ),
+                                        name: Some(
+                                            "Stroke 1",
+                                        ),
+                                        line_cap: Round,
+                                        line_join: Miter,
+                                        miter_limit: Some(
+                                            4.0,
+                                        ),
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        width: Property {
+                                            value: Fixed(
+                                                8.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.341176470588,
+                                                    0.698039215686,
+                                                    0.756862745098,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Fill(
+                                    Fill {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Fill",
+                                        ),
+                                        name: Some(
+                                            "Fill 1",
+                                        ),
+                                        fill_enabled: None,
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Transform(
+                                    Transform {
+                                        name: Some(
+                                            "Transform",
+                                        ),
+                                        anchor_point: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                1,
+                                            ),
+                                        },
+                                        position: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                        scale: Property {
+                                            value: Fixed(
+                                                [
+                                                    100.0,
+                                                    100.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                        rotation: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                6,
+                                            ),
+                                        },
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                7,
+                                            ),
+                                        },
+                                        skew: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        skew_axis: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                    },
+                                ),
+                            ],
+                        },
+                    ),
+                    Trim(
+                        Trim {
+                            match_name: Some(
+                                "ADBE Vector Filter - Trim",
+                            ),
+                            name: Some(
+                                "Trim Paths 1",
+                            ),
+                            start: Property {
+                                value: Fixed(
+                                    0.0,
+                                ),
+                                expression: None,
+                                index: Some(
+                                    1,
+                                ),
+                            },
+                            end: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                20.0,
+                                            ),
+                                            start_time: 208.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    2,
+                                ),
+                            },
+                            offset: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                180.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    3,
+                                ),
+                            },
+                        },
+                    ),
+                ],
+            },
+        ),
+        Shape(
+            Shape {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            1,
+                        ),
+                    },
+                    position: Property {
+                        value: Fixed(
+                            [
+                                466.0,
+                                538.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            2,
+                        ),
+                    },
+                    scale: Property {
+                        value: Fixed(
+                            [
+                                -100.0,
+                                100.0,
+                                100.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            6,
+                        ),
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            10,
+                        ),
+                    },
+                    opacity: Property {
+                        value: Fixed(
+                            100.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            11,
+                        ),
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                bounds: None,
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 2,
+                html_class: None,
+                html_id: None,
+                in_point: 199.0,
+                out_point: 1099.0,
+                start_time: 199.0,
+                name: Some(
+                    "Shape Layer 16",
+                ),
+                masks: [],
+                effects: [],
+                stretch: 1.0,
+                parent: None,
+                shapes: [
+                    Group(
+                        Group {
+                            match_name: Some(
+                                "ADBE Vector Group",
+                            ),
+                            name: Some(
+                                "Shape 1",
+                            ),
+                            number_of_properties: Some(
+                                3,
+                            ),
+                            items: [
+                                Shape(
+                                    Shape {
+                                        match_name: Some(
+                                            "ADBE Vector Shape - Group",
+                                        ),
+                                        name: Some(
+                                            "Path 1",
+                                        ),
+                                        direction: None,
+                                        closed: None,
+                                        vertices: Property {
+                                            value: Fixed(
+                                                ShapeValue {
+                                                    closed: Some(
+                                                        false,
+                                                    ),
+                                                    in_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    out_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    vertices: [
+                                                        (
+                                                            -161.0,
+                                                            103.0,
+                                                        ),
+                                                        (
+                                                            -645.5,
+                                                            97.0,
+                                                        ),
+                                                    ],
+                                                },
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Stroke(
+                                    Stroke {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Stroke",
+                                        ),
+                                        name: Some(
+                                            "Stroke 1",
+                                        ),
+                                        line_cap: Round,
+                                        line_join: Miter,
+                                        miter_limit: Some(
+                                            4.0,
+                                        ),
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        width: Property {
+                                            value: Fixed(
+                                                8.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.341176470588,
+                                                    0.698039215686,
+                                                    0.756862745098,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Fill(
+                                    Fill {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Fill",
+                                        ),
+                                        name: Some(
+                                            "Fill 1",
+                                        ),
+                                        fill_enabled: None,
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Transform(
+                                    Transform {
+                                        name: Some(
+                                            "Transform",
+                                        ),
+                                        anchor_point: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                1,
+                                            ),
+                                        },
+                                        position: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                        scale: Property {
+                                            value: Fixed(
+                                                [
+                                                    100.0,
+                                                    100.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                        rotation: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                6,
+                                            ),
+                                        },
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                7,
+                                            ),
+                                        },
+                                        skew: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        skew_axis: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                    },
+                                ),
+                            ],
+                        },
+                    ),
+                    Trim(
+                        Trim {
+                            match_name: Some(
+                                "ADBE Vector Filter - Trim",
+                            ),
+                            name: Some(
+                                "Trim Paths 1",
+                            ),
+                            start: Property {
+                                value: Fixed(
+                                    0.0,
+                                ),
+                                expression: None,
+                                index: Some(
+                                    1,
+                                ),
+                            },
+                            end: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                20.0,
+                                            ),
+                                            start_time: 208.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    2,
+                                ),
+                            },
+                            offset: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                180.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    3,
+                                ),
+                            },
+                        },
+                    ),
+                ],
+            },
+        ),
+        Shape(
+            Shape {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            1,
+                        ),
+                    },
+                    position: Property {
+                        value: Fixed(
+                            [
+                                514.0,
+                                508.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            2,
+                        ),
+                    },
+                    scale: Property {
+                        value: Fixed(
+                            [
+                                -100.0,
+                                100.0,
+                                100.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            6,
+                        ),
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            10,
+                        ),
+                    },
+                    opacity: Property {
+                        value: Fixed(
+                            100.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            11,
+                        ),
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                bounds: None,
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 3,
+                html_class: None,
+                html_id: None,
+                in_point: 199.0,
+                out_point: 1099.0,
+                start_time: 199.0,
+                name: Some(
+                    "Shape Layer 15",
+                ),
+                masks: [],
+                effects: [],
+                stretch: 1.0,
+                parent: None,
+                shapes: [
+                    Group(
+                        Group {
+                            match_name: Some(
+                                "ADBE Vector Group",
+                            ),
+                            name: Some(
+                                "Shape 1",
+                            ),
+                            number_of_properties: Some(
+                                3,
+                            ),
+                            items: [
+                                Shape(
+                                    Shape {
+                                        match_name: Some(
+                                            "ADBE Vector Shape - Group",
+                                        ),
+                                        name: Some(
+                                            "Path 1",
+                                        ),
+                                        direction: None,
+                                        closed: None,
+                                        vertices: Property {
+                                            value: Fixed(
+                                                ShapeValue {
+                                                    closed: Some(
+                                                        false,
+                                                    ),
+                                                    in_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    out_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    vertices: [
+                                                        (
+                                                            -161.0,
+                                                            103.0,
+                                                        ),
+                                                        (
+                                                            -619.5,
+                                                            1.0,
+                                                        ),
+                                                    ],
+                                                },
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Stroke(
+                                    Stroke {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Stroke",
+                                        ),
+                                        name: Some(
+                                            "Stroke 1",
+                                        ),
+                                        line_cap: Round,
+                                        line_join: Miter,
+                                        miter_limit: Some(
+                                            4.0,
+                                        ),
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        width: Property {
+                                            value: Fixed(
+                                                8.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.341176470588,
+                                                    0.698039215686,
+                                                    0.756862745098,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Fill(
+                                    Fill {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Fill",
+                                        ),
+                                        name: Some(
+                                            "Fill 1",
+                                        ),
+                                        fill_enabled: None,
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Transform(
+                                    Transform {
+                                        name: Some(
+                                            "Transform",
+                                        ),
+                                        anchor_point: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                1,
+                                            ),
+                                        },
+                                        position: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                        scale: Property {
+                                            value: Fixed(
+                                                [
+                                                    100.0,
+                                                    100.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                        rotation: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                6,
+                                            ),
+                                        },
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                7,
+                                            ),
+                                        },
+                                        skew: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        skew_axis: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                    },
+                                ),
+                            ],
+                        },
+                    ),
+                    Trim(
+                        Trim {
+                            match_name: Some(
+                                "ADBE Vector Filter - Trim",
+                            ),
+                            name: Some(
+                                "Trim Paths 1",
+                            ),
+                            start: Property {
+                                value: Fixed(
+                                    0.0,
+                                ),
+                                expression: None,
+                                index: Some(
+                                    1,
+                                ),
+                            },
+                            end: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                20.0,
+                                            ),
+                                            start_time: 208.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    2,
+                                ),
+                            },
+                            offset: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                180.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    3,
+                                ),
+                            },
+                        },
+                    ),
+                ],
+            },
+        ),
+        Shape(
+            Shape {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            1,
+                        ),
+                    },
+                    position: Property {
+                        value: Fixed(
+                            [
+                                504.0,
+                                550.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            2,
+                        ),
+                    },
+                    scale: Property {
+                        value: Fixed(
+                            [
+                                100.0,
+                                100.0,
+                                100.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            6,
+                        ),
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            10,
+                        ),
+                    },
+                    opacity: Property {
+                        value: Fixed(
+                            100.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            11,
+                        ),
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                bounds: None,
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 4,
+                html_class: None,
+                html_id: None,
+                in_point: 199.0,
+                out_point: 1099.0,
+                start_time: 199.0,
+                name: Some(
+                    "Shape Layer 14",
+                ),
+                masks: [],
+                effects: [],
+                stretch: 1.0,
+                parent: None,
+                shapes: [
+                    Group(
+                        Group {
+                            match_name: Some(
+                                "ADBE Vector Group",
+                            ),
+                            name: Some(
+                                "Shape 1",
+                            ),
+                            number_of_properties: Some(
+                                3,
+                            ),
+                            items: [
+                                Shape(
+                                    Shape {
+                                        match_name: Some(
+                                            "ADBE Vector Shape - Group",
+                                        ),
+                                        name: Some(
+                                            "Path 1",
+                                        ),
+                                        direction: None,
+                                        closed: None,
+                                        vertices: Property {
+                                            value: Fixed(
+                                                ShapeValue {
+                                                    closed: Some(
+                                                        false,
+                                                    ),
+                                                    in_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    out_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    vertices: [
+                                                        (
+                                                            -169.0,
+                                                            109.0,
+                                                        ),
+                                                        (
+                                                            -691.5,
+                                                            255.0,
+                                                        ),
+                                                    ],
+                                                },
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Stroke(
+                                    Stroke {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Stroke",
+                                        ),
+                                        name: Some(
+                                            "Stroke 1",
+                                        ),
+                                        line_cap: Round,
+                                        line_join: Miter,
+                                        miter_limit: Some(
+                                            4.0,
+                                        ),
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        width: Property {
+                                            value: Fixed(
+                                                8.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.341176470588,
+                                                    0.698039215686,
+                                                    0.756862745098,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Fill(
+                                    Fill {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Fill",
+                                        ),
+                                        name: Some(
+                                            "Fill 1",
+                                        ),
+                                        fill_enabled: None,
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Transform(
+                                    Transform {
+                                        name: Some(
+                                            "Transform",
+                                        ),
+                                        anchor_point: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                1,
+                                            ),
+                                        },
+                                        position: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                        scale: Property {
+                                            value: Fixed(
+                                                [
+                                                    100.0,
+                                                    100.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                        rotation: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                6,
+                                            ),
+                                        },
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                7,
+                                            ),
+                                        },
+                                        skew: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        skew_axis: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                    },
+                                ),
+                            ],
+                        },
+                    ),
+                    Trim(
+                        Trim {
+                            match_name: Some(
+                                "ADBE Vector Filter - Trim",
+                            ),
+                            name: Some(
+                                "Trim Paths 1",
+                            ),
+                            start: Property {
+                                value: Fixed(
+                                    0.0,
+                                ),
+                                expression: None,
+                                index: Some(
+                                    1,
+                                ),
+                            },
+                            end: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                20.0,
+                                            ),
+                                            start_time: 208.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    2,
+                                ),
+                            },
+                            offset: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                180.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    3,
+                                ),
+                            },
+                        },
+                    ),
+                ],
+            },
+        ),
+        Shape(
+            Shape {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            1,
+                        ),
+                    },
+                    position: Property {
+                        value: Fixed(
+                            [
+                                534.0,
+                                538.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            2,
+                        ),
+                    },
+                    scale: Property {
+                        value: Fixed(
+                            [
+                                100.0,
+                                100.0,
+                                100.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            6,
+                        ),
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            10,
+                        ),
+                    },
+                    opacity: Property {
+                        value: Fixed(
+                            100.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            11,
+                        ),
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                bounds: None,
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 5,
+                html_class: None,
+                html_id: None,
+                in_point: 199.0,
+                out_point: 1099.0,
+                start_time: 199.0,
+                name: Some(
+                    "Shape Layer 13",
+                ),
+                masks: [],
+                effects: [],
+                stretch: 1.0,
+                parent: None,
+                shapes: [
+                    Group(
+                        Group {
+                            match_name: Some(
+                                "ADBE Vector Group",
+                            ),
+                            name: Some(
+                                "Shape 1",
+                            ),
+                            number_of_properties: Some(
+                                3,
+                            ),
+                            items: [
+                                Shape(
+                                    Shape {
+                                        match_name: Some(
+                                            "ADBE Vector Shape - Group",
+                                        ),
+                                        name: Some(
+                                            "Path 1",
+                                        ),
+                                        direction: None,
+                                        closed: None,
+                                        vertices: Property {
+                                            value: Fixed(
+                                                ShapeValue {
+                                                    closed: Some(
+                                                        false,
+                                                    ),
+                                                    in_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    out_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    vertices: [
+                                                        (
+                                                            -161.0,
+                                                            103.0,
+                                                        ),
+                                                        (
+                                                            -645.5,
+                                                            97.0,
+                                                        ),
+                                                    ],
+                                                },
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Stroke(
+                                    Stroke {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Stroke",
+                                        ),
+                                        name: Some(
+                                            "Stroke 1",
+                                        ),
+                                        line_cap: Round,
+                                        line_join: Miter,
+                                        miter_limit: Some(
+                                            4.0,
+                                        ),
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        width: Property {
+                                            value: Fixed(
+                                                8.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.341176470588,
+                                                    0.698039215686,
+                                                    0.756862745098,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Fill(
+                                    Fill {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Fill",
+                                        ),
+                                        name: Some(
+                                            "Fill 1",
+                                        ),
+                                        fill_enabled: None,
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Transform(
+                                    Transform {
+                                        name: Some(
+                                            "Transform",
+                                        ),
+                                        anchor_point: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                1,
+                                            ),
+                                        },
+                                        position: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                        scale: Property {
+                                            value: Fixed(
+                                                [
+                                                    100.0,
+                                                    100.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                        rotation: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                6,
+                                            ),
+                                        },
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                7,
+                                            ),
+                                        },
+                                        skew: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        skew_axis: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                    },
+                                ),
+                            ],
+                        },
+                    ),
+                    Trim(
+                        Trim {
+                            match_name: Some(
+                                "ADBE Vector Filter - Trim",
+                            ),
+                            name: Some(
+                                "Trim Paths 1",
+                            ),
+                            start: Property {
+                                value: Fixed(
+                                    0.0,
+                                ),
+                                expression: None,
+                                index: Some(
+                                    1,
+                                ),
+                            },
+                            end: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                20.0,
+                                            ),
+                                            start_time: 208.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    2,
+                                ),
+                            },
+                            offset: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                180.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    3,
+                                ),
+                            },
+                        },
+                    ),
+                ],
+            },
+        ),
+        Shape(
+            Shape {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                0.0,
+                                0.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            1,
+                        ),
+                    },
+                    position: Property {
+                        value: Fixed(
+                            [
+                                482.0,
+                                508.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            2,
+                        ),
+                    },
+                    scale: Property {
+                        value: Fixed(
+                            [
+                                100.0,
+                                100.0,
+                                100.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            6,
+                        ),
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            10,
+                        ),
+                    },
+                    opacity: Property {
+                        value: Fixed(
+                            100.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            11,
+                        ),
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                bounds: None,
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 6,
+                html_class: None,
+                html_id: None,
+                in_point: 199.0,
+                out_point: 1099.0,
+                start_time: 199.0,
+                name: Some(
+                    "Shape Layer 12",
+                ),
+                masks: [],
+                effects: [],
+                stretch: 1.0,
+                parent: None,
+                shapes: [
+                    Group(
+                        Group {
+                            match_name: Some(
+                                "ADBE Vector Group",
+                            ),
+                            name: Some(
+                                "Shape 1",
+                            ),
+                            number_of_properties: Some(
+                                3,
+                            ),
+                            items: [
+                                Shape(
+                                    Shape {
+                                        match_name: Some(
+                                            "ADBE Vector Shape - Group",
+                                        ),
+                                        name: Some(
+                                            "Path 1",
+                                        ),
+                                        direction: None,
+                                        closed: None,
+                                        vertices: Property {
+                                            value: Fixed(
+                                                ShapeValue {
+                                                    closed: Some(
+                                                        false,
+                                                    ),
+                                                    in_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    out_point: [
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                        (
+                                                            0.0,
+                                                            0.0,
+                                                        ),
+                                                    ],
+                                                    vertices: [
+                                                        (
+                                                            -161.0,
+                                                            103.0,
+                                                        ),
+                                                        (
+                                                            -619.5,
+                                                            1.0,
+                                                        ),
+                                                    ],
+                                                },
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Stroke(
+                                    Stroke {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Stroke",
+                                        ),
+                                        name: Some(
+                                            "Stroke 1",
+                                        ),
+                                        line_cap: Round,
+                                        line_join: Miter,
+                                        miter_limit: Some(
+                                            4.0,
+                                        ),
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        width: Property {
+                                            value: Fixed(
+                                                8.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.341176470588,
+                                                    0.698039215686,
+                                                    0.756862745098,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Fill(
+                                    Fill {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Fill",
+                                        ),
+                                        name: Some(
+                                            "Fill 1",
+                                        ),
+                                        fill_enabled: None,
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.341176480055,
+                                                    0.698039233685,
+                                                    0.75686275959,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Transform(
+                                    Transform {
+                                        name: Some(
+                                            "Transform",
+                                        ),
+                                        anchor_point: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                1,
+                                            ),
+                                        },
+                                        position: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                        scale: Property {
+                                            value: Fixed(
+                                                [
+                                                    100.0,
+                                                    100.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                        rotation: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                6,
+                                            ),
+                                        },
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                7,
+                                            ),
+                                        },
+                                        skew: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        skew_axis: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                    },
+                                ),
+                            ],
+                        },
+                    ),
+                    Trim(
+                        Trim {
+                            match_name: Some(
+                                "ADBE Vector Filter - Trim",
+                            ),
+                            name: Some(
+                                "Trim Paths 1",
+                            ),
+                            start: Property {
+                                value: Fixed(
+                                    0.0,
+                                ),
+                                expression: None,
+                                index: Some(
+                                    1,
+                                ),
+                            },
+                            end: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                20.0,
+                                            ),
+                                            start_time: 208.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    2,
+                                ),
+                            },
+                            offset: Property {
+                                value: Animated(
+                                    [
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                0.0,
+                                            ),
+                                            start_time: 199.0,
+                                            hold: false,
+                                            bezier: Some(
+                                                Bezier1d {
+                                                    in_value: ControlPoint1d {
+                                                        x: 0.833,
+                                                        y: 0.833,
+                                                    },
+                                                    out_value: ControlPoint1d {
+                                                        x: 0.167,
+                                                        y: 0.167,
+                                                    },
+                                                },
+                                            ),
+                                        },
+                                        ScalarKeyframe {
+                                            start_value: Some(
+                                                180.0,
+                                            ),
+                                            start_time: 216.0,
+                                            hold: false,
+                                            bezier: None,
+                                        },
+                                    ],
+                                ),
+                                expression: None,
+                                index: Some(
+                                    3,
+                                ),
+                            },
+                        },
+                    ),
+                ],
+            },
+        ),
+        Text(
+            Text,
+        ),
+        Text(
+            Text,
+        ),
+        Shape(
+            Shape {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                -2.5,
+                                -122.917,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            1,
+                        ),
+                    },
+                    position: Property {
+                        value: Fixed(
+                            [
+                                499.5,
+                                393.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            2,
+                        ),
+                    },
+                    scale: Property {
+                        value: Animated(
+                            [
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            0.0,
+                                            0.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    start_time: 194.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            81.79,
+                                            147.008,
+                                            100.0,
+                                        ],
+                                    ),
+                                    start_time: 206.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            109.896,
+                                            147.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    start_time: 212.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            6,
+                        ),
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            10,
+                        ),
+                    },
+                    opacity: Property {
+                        value: Fixed(
+                            100.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            11,
+                        ),
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                bounds: None,
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 10,
+                html_class: None,
+                html_id: None,
+                in_point: 194.0,
+                out_point: 1094.0,
+                start_time: 194.0,
+                name: Some(
+                    "Line",
+                ),
+                masks: [],
+                effects: [],
+                stretch: 1.0,
+                parent: None,
+                shapes: [
+                    Group(
+                        Group {
+                            match_name: Some(
+                                "ADBE Vector Group",
+                            ),
+                            name: Some(
+                                "Rectangle 1",
+                            ),
+                            number_of_properties: Some(
+                                3,
+                            ),
+                            items: [
+                                Rect(
+                                    Rect {
+                                        match_name: Some(
+                                            "ADBE Vector Shape - Rect",
+                                        ),
+                                        name: Some(
+                                            "Rectangle Path 1",
+                                        ),
+                                        direction: 1.0,
+                                        position: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                        size: Property {
+                                            value: Fixed(
+                                                [
+                                                    226.816,
+                                                    4.273,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                        rounded_corners: Property {
+                                            value: Fixed(
+                                                194.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Stroke(
+                                    Stroke {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Stroke",
+                                        ),
+                                        name: Some(
+                                            "Stroke 1",
+                                        ),
+                                        line_cap: Butt,
+                                        line_join: Miter,
+                                        miter_limit: Some(
+                                            4.0,
+                                        ),
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        width: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.944087009804,
+                                                    0.944087009804,
+                                                    0.944087009804,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Fill(
+                                    Fill {
+                                        match_name: Some(
+                                            "ADBE Vector Graphic - Fill",
+                                        ),
+                                        name: Some(
+                                            "Fill 1",
+                                        ),
+                                        fill_enabled: None,
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                        color: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.341176470588,
+                                                    0.698039215686,
+                                                    0.756862745098,
+                                                    1.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                    },
+                                ),
+                                Transform(
+                                    Transform {
+                                        name: Some(
+                                            "Transform",
+                                        ),
+                                        anchor_point: Property {
+                                            value: Fixed(
+                                                [
+                                                    0.0,
+                                                    0.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                1,
+                                            ),
+                                        },
+                                        position: Property {
+                                            value: Fixed(
+                                                [
+                                                    -3.092,
+                                                    -122.863,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                2,
+                                            ),
+                                        },
+                                        scale: Property {
+                                            value: Fixed(
+                                                [
+                                                    100.0,
+                                                    100.0,
+                                                ],
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                3,
+                                            ),
+                                        },
+                                        rotation: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                6,
+                                            ),
+                                        },
+                                        opacity: Property {
+                                            value: Fixed(
+                                                100.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                7,
+                                            ),
+                                        },
+                                        skew: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                4,
+                                            ),
+                                        },
+                                        skew_axis: Property {
+                                            value: Fixed(
+                                                0.0,
+                                            ),
+                                            expression: None,
+                                            index: Some(
+                                                5,
+                                            ),
+                                        },
+                                    },
+                                ),
+                            ],
+                        },
+                    ),
+                ],
+            },
+        ),
+        PreComp(
+            PreComp,
+        ),
+        Image(
+            Image,
+        ),
+        PreComp(
+            PreComp,
+        ),
+        PreComp(
+            PreComp,
+        ),
+        PreComp(
+            PreComp,
+        ),
+        PreComp(
+            PreComp,
+        ),
+        PreComp(
+            PreComp,
+        ),
+        PreComp(
+            PreComp,
+        ),
+    ],
+}
