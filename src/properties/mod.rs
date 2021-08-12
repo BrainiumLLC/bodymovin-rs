@@ -29,13 +29,6 @@ where
     Destructurer::deserialize(deserializer).map(Into::into)
 }
 
-fn option_destructure<'de, D>(deserializer: D) -> Result<Option<f64>, D::Error>
-where
-    D: Deserializer<'de>,
-{
-    Ok(dbg!(<Option<Destructurer>>::deserialize(deserializer))?.map(Into::into))
-}
-
 #[derive(Clone, Debug, Deserialize)]
 pub struct ControlPoint1d {
     #[serde(deserialize_with = "destructure")]

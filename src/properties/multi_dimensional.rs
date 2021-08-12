@@ -7,6 +7,8 @@ pub type MultiDimensionalValue = Vec<properties::ScalarValue>;
 pub struct MultiDimensionalKeyframe {
     #[serde(rename = "s")]
     pub start_value: Option<MultiDimensionalValue>,
+    #[serde(rename = "e")]
+    pub end_value: Option<MultiDimensionalValue>,
     #[serde(rename = "t")]
     pub start_time: f64,
     #[serde(rename = "h", deserialize_with = "util::bool_from_int", default)]

@@ -3,10 +3,24 @@ use serde::Deserialize;
 
 pub type ScalarValue = f64;
 
+#[derive(Clone, Copy, Debug, Deserialize)]
+#[repr(transparent)]
+pub struct DestructuredScalarValue(
+    #[serde(deserialize_with = "properties::destructure")] pub ScalarValue,
+);
+
+impl Into<ScalarValue> for DestructuredScalarValue {
+    fn into(self) -> ScalarValue {
+        self.0
+    }
+}
+
 #[derive(Debug, Deserialize)]
 pub struct ScalarKeyframe {
-    #[serde(rename = "s", deserialize_with = "properties::option_destructure")]
-    pub start_value: Option<ScalarValue>,
+    #[serde(rename = "s")]
+    pub start_value: Option<DestructuredScalarValue>,
+    #[serde(rename = "e")]
+    pub end_value: Option<DestructuredScalarValue>,
     #[serde(rename = "t")]
     pub start_time: f64,
     #[serde(rename = "h", deserialize_with = "util::bool_from_int", default)]

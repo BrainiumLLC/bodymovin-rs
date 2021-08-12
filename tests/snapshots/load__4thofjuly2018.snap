@@ -380,8 +380,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -399,8 +402,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                20.0,
+                                                DestructuredScalarValue(
+                                                    20.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 208.0,
                                             hold: false,
                                             bezier: Some(
@@ -418,8 +424,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -436,8 +445,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -455,8 +467,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                180.0,
+                                                DestructuredScalarValue(
+                                                    180.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -839,8 +854,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -858,8 +876,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                20.0,
+                                                DestructuredScalarValue(
+                                                    20.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 208.0,
                                             hold: false,
                                             bezier: Some(
@@ -877,8 +898,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -895,8 +919,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -914,8 +941,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                180.0,
+                                                DestructuredScalarValue(
+                                                    180.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -1298,8 +1328,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -1317,8 +1350,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                20.0,
+                                                DestructuredScalarValue(
+                                                    20.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 208.0,
                                             hold: false,
                                             bezier: Some(
@@ -1336,8 +1372,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -1354,8 +1393,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -1373,8 +1415,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                180.0,
+                                                DestructuredScalarValue(
+                                                    180.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -1757,8 +1802,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -1776,8 +1824,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                20.0,
+                                                DestructuredScalarValue(
+                                                    20.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 208.0,
                                             hold: false,
                                             bezier: Some(
@@ -1795,8 +1846,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -1813,8 +1867,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -1832,8 +1889,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                180.0,
+                                                DestructuredScalarValue(
+                                                    180.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -2216,8 +2276,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -2235,8 +2298,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                20.0,
+                                                DestructuredScalarValue(
+                                                    20.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 208.0,
                                             hold: false,
                                             bezier: Some(
@@ -2254,8 +2320,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -2272,8 +2341,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -2291,8 +2363,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                180.0,
+                                                DestructuredScalarValue(
+                                                    180.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -2675,8 +2750,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -2694,8 +2772,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                20.0,
+                                                DestructuredScalarValue(
+                                                    20.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 208.0,
                                             hold: false,
                                             bezier: Some(
@@ -2713,8 +2794,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -2731,8 +2815,11 @@ Bodymovin {
                                     [
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                0.0,
+                                                DestructuredScalarValue(
+                                                    0.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 199.0,
                                             hold: false,
                                             bezier: Some(
@@ -2750,8 +2837,11 @@ Bodymovin {
                                         },
                                         ScalarKeyframe {
                                             start_value: Some(
-                                                180.0,
+                                                DestructuredScalarValue(
+                                                    180.0,
+                                                ),
                                             ),
+                                            end_value: None,
                                             start_time: 216.0,
                                             hold: false,
                                             bezier: None,
@@ -2814,6 +2904,7 @@ Bodymovin {
                                             100.0,
                                         ],
                                     ),
+                                    end_value: None,
                                     start_time: 194.0,
                                     hold: false,
                                     bezier: None,
@@ -2827,6 +2918,7 @@ Bodymovin {
                                             100.0,
                                         ],
                                     ),
+                                    end_value: None,
                                     start_time: 206.0,
                                     hold: false,
                                     bezier: None,
@@ -2840,6 +2932,7 @@ Bodymovin {
                                             100.0,
                                         ],
                                     ),
+                                    end_value: None,
                                     start_time: 212.0,
                                     hold: false,
                                     bezier: None,

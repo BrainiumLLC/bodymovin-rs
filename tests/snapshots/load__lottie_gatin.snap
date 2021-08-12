@@ -60,7 +60,14 @@ Bodymovin {
                             [
                                 ScalarKeyframe {
                                     start_value: Some(
-                                        0.0,
+                                        DestructuredScalarValue(
+                                            0.0,
+                                        ),
+                                    ),
+                                    end_value: Some(
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
                                     ),
                                     start_time: 4.0,
                                     hold: false,
@@ -79,7 +86,14 @@ Bodymovin {
                                 },
                                 ScalarKeyframe {
                                     start_value: Some(
-                                        100.0,
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
+                                    ),
+                                    end_value: Some(
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
                                     ),
                                     start_time: 5.0,
                                     hold: false,
@@ -98,7 +112,14 @@ Bodymovin {
                                 },
                                 ScalarKeyframe {
                                     start_value: Some(
-                                        100.0,
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
+                                    ),
+                                    end_value: Some(
+                                        DestructuredScalarValue(
+                                            0.0,
+                                        ),
                                     ),
                                     start_time: 40.0,
                                     hold: false,
@@ -117,7 +138,14 @@ Bodymovin {
                                 },
                                 ScalarKeyframe {
                                     start_value: Some(
-                                        0.0,
+                                        DestructuredScalarValue(
+                                            0.0,
+                                        ),
+                                    ),
+                                    end_value: Some(
+                                        DestructuredScalarValue(
+                                            0.0,
+                                        ),
                                     ),
                                     start_time: 41.0,
                                     hold: false,
@@ -136,7 +164,14 @@ Bodymovin {
                                 },
                                 ScalarKeyframe {
                                     start_value: Some(
-                                        0.0,
+                                        DestructuredScalarValue(
+                                            0.0,
+                                        ),
+                                    ),
+                                    end_value: Some(
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
                                     ),
                                     start_time: 57.0,
                                     hold: false,
@@ -155,7 +190,14 @@ Bodymovin {
                                 },
                                 ScalarKeyframe {
                                     start_value: Some(
-                                        100.0,
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
+                                    ),
+                                    end_value: Some(
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
                                     ),
                                     start_time: 58.0,
                                     hold: false,
@@ -174,7 +216,14 @@ Bodymovin {
                                 },
                                 ScalarKeyframe {
                                     start_value: Some(
-                                        100.0,
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
+                                    ),
+                                    end_value: Some(
+                                        DestructuredScalarValue(
+                                            0.0,
+                                        ),
                                     ),
                                     start_time: 66.0,
                                     hold: false,
@@ -190,6 +239,13 @@ Bodymovin {
                                             },
                                         },
                                     ),
+                                },
+                                ScalarKeyframe {
+                                    start_value: None,
+                                    end_value: None,
+                                    start_time: 67.0,
+                                    hold: false,
+                                    bezier: None,
                                 },
                             ],
                         ),
@@ -274,7 +330,9 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: true,
+                                        closed: Some(
+                                            true,
+                                        ),
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -451,7 +509,9 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: true,
+                                        closed: Some(
+                                            true,
+                                        ),
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -628,7 +688,9 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: true,
+                                        closed: Some(
+                                            true,
+                                        ),
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -805,7 +867,9 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: true,
+                                        closed: Some(
+                                            true,
+                                        ),
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
