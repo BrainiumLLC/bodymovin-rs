@@ -149,7 +149,7 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: None,
+                                        closed: false,
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -623,7 +623,7 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: None,
+                                        closed: false,
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -1097,7 +1097,7 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: None,
+                                        closed: false,
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -1571,7 +1571,7 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: None,
+                                        closed: false,
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -2045,7 +2045,7 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: None,
+                                        closed: false,
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -2519,7 +2519,7 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: None,
+                                        closed: false,
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {

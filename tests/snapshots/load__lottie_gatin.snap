@@ -330,9 +330,7 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: Some(
-                                            true,
-                                        ),
+                                        closed: true,
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -509,9 +507,7 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: Some(
-                                            true,
-                                        ),
+                                        closed: true,
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -688,9 +684,7 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: Some(
-                                            true,
-                                        ),
+                                        closed: true,
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {
@@ -867,9 +861,7 @@ Bodymovin {
                                             "Path 1",
                                         ),
                                         direction: None,
-                                        closed: Some(
-                                            true,
-                                        ),
+                                        closed: true,
                                         vertices: Property {
                                             value: Fixed(
                                                 ShapeValue {

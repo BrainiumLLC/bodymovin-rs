@@ -9,7 +9,8 @@ pub struct Shape {
     pub name: Option<String>,
     #[serde(rename = "d")]
     pub direction: Option<f64>,
-    pub closed: Option<bool>,
+    #[serde(default)]
+    pub closed: bool,
     #[serde(rename = "ks")]
     pub vertices: properties::Shape,
 }
