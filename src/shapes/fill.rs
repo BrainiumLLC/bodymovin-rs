@@ -11,6 +11,7 @@ pub struct Fill {
     pub fill_enabled: Option<bool>,
     #[serde(rename = "o")]
     pub opacity: properties::Scalar,
+    /// TODO: color can be in a [0, 255] representation as well
     #[serde(rename = "c")]
     pub color: properties::MultiDimensional,
 }
