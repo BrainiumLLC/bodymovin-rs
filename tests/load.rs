@@ -39,3 +39,8 @@ fn test_lottie_gatin() {
 fn test_lottie_happy2016() {
     test_file("lottie_happy2016.json")
 }
+
+#[test]
+fn test_underline() {
+    test_file("underline.json")
+}

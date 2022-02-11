@@ -13,7 +13,7 @@ Bodymovin {
     name: None,
     layers: [
         Shape(
-            Shape {
+            Layer {
                 transform: Transform {
                     anchor_point: Property {
                         value: Fixed(
@@ -288,14 +288,6 @@ Bodymovin {
                         index: None,
                     },
                 },
-                bounds: Some(
-                    Bounds {
-                        left: 0.0,
-                        top: 0.0,
-                        bottom: 35.0,
-                        right: 157.0,
-                    },
-                ),
                 auto_orient: false,
                 blend_mode: Normal,
                 is_3d: false,
@@ -309,721 +301,730 @@ Bodymovin {
                     "ojoscerr Outlines",
                 ),
                 masks: [],
-                effects: [],
                 stretch: 1.0,
                 parent: Some(
                     3,
                 ),
-                shapes: [
-                    Group(
-                        Group {
-                            match_name: None,
-                            name: Some(
-                                "Group 1",
-                            ),
-                            number_of_properties: None,
-                            items: [
-                                Shape(
-                                    Shape {
-                                        match_name: None,
-                                        name: Some(
-                                            "Path 1",
-                                        ),
-                                        direction: None,
-                                        closed: true,
-                                        vertices: Property {
-                                            value: Fixed(
-                                                ShapeValue {
-                                                    closed: None,
-                                                    in_point: [
-                                                        (
-                                                            1.239,
-                                                            -1.488,
-                                                        ),
-                                                        (
-                                                            8.272,
-                                                            -1.061,
-                                                        ),
-                                                        (
-                                                            -1.915,
-                                                            0.245,
-                                                        ),
-                                                        (
-                                                            -6.074,
-                                                            7.293,
-                                                        ),
-                                                    ],
-                                                    out_point: [
-                                                        (
-                                                            -5.55,
-                                                            6.664,
-                                                        ),
-                                                        (
-                                                            -1.892,
-                                                            0.242,
-                                                        ),
-                                                        (
-                                                            9.022,
-                                                            -1.157,
-                                                        ),
-                                                        (
-                                                            1.229,
-                                                            -1.475,
-                                                        ),
-                                                    ],
-                                                    vertices: [
-                                                        (
-                                                            10.752,
-                                                            -5.909,
-                                                        ),
-                                                        (
-                                                            -12.187,
-                                                            4.152,
-                                                        ),
-                                                        (
-                                                            -12.187,
-                                                            7.152,
-                                                        ),
-                                                        (
-                                                            12.873,
-                                                            -3.788,
-                                                        ),
-                                                    ],
-                                                },
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
-                                ),
-                                Fill(
-                                    Fill {
-                                        match_name: None,
-                                        name: Some(
-                                            "Fill 1",
-                                        ),
-                                        fill_enabled: Some(
-                                            true,
-                                        ),
-                                        opacity: Property {
-                                            value: Fixed(
-                                                100.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        color: Property {
-                                            value: Fixed(
-                                                [
-                                                    255.0,
-                                                    159.0,
-                                                    87.0,
-                                                    255.0,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
-                                ),
-                                Transform(
-                                    Transform {
-                                        name: None,
-                                        anchor_point: Property {
-                                            value: Fixed(
-                                                [
-                                                    0.0,
-                                                    0.0,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        position: Property {
-                                            value: Fixed(
-                                                [
-                                                    136.938,
-                                                    13.599,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        scale: Property {
-                                            value: Fixed(
-                                                [
-                                                    100.0,
-                                                    100.0,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        rotation: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        opacity: Property {
-                                            value: Fixed(
-                                                100.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        skew: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        skew_axis: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
-                                ),
-                            ],
+                mixin: ShapeMixin {
+                    bounds: Some(
+                        Bounds {
+                            left: 0.0,
+                            top: 0.0,
+                            bottom: 35.0,
+                            right: 157.0,
                         },
                     ),
-                    Group(
-                        Group {
-                            match_name: None,
-                            name: Some(
-                                "Group 2",
-                            ),
-                            number_of_properties: None,
-                            items: [
-                                Shape(
-                                    Shape {
-                                        match_name: None,
-                                        name: Some(
-                                            "Path 1",
-                                        ),
-                                        direction: None,
-                                        closed: true,
-                                        vertices: Property {
-                                            value: Fixed(
-                                                ShapeValue {
-                                                    closed: None,
-                                                    in_point: [
-                                                        (
-                                                            -1.229,
-                                                            -1.475,
-                                                        ),
-                                                        (
-                                                            -9.023,
-                                                            -1.156,
-                                                        ),
-                                                        (
-                                                            1.891,
-                                                            0.243,
-                                                        ),
-                                                        (
-                                                            5.55,
-                                                            6.663,
-                                                        ),
-                                                    ],
-                                                    out_point: [
-                                                        (
-                                                            6.074,
-                                                            7.293,
-                                                        ),
-                                                        (
-                                                            1.915,
-                                                            0.246,
-                                                        ),
-                                                        (
-                                                            -8.273,
-                                                            -1.06,
-                                                        ),
-                                                        (
-                                                            -1.239,
-                                                            -1.488,
-                                                        ),
-                                                    ],
-                                                    vertices: [
-                                                        (
-                                                            -12.873,
-                                                            -3.788,
-                                                        ),
-                                                        (
-                                                            12.187,
-                                                            7.151,
-                                                        ),
-                                                        (
-                                                            12.187,
-                                                            4.151,
-                                                        ),
-                                                        (
-                                                            -10.753,
-                                                            -5.909,
-                                                        ),
-                                                    ],
-                                                },
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
+                    shapes: [
+                        Group(
+                            Group {
+                                match_name: None,
+                                name: Some(
+                                    "Group 1",
                                 ),
-                                Fill(
-                                    Fill {
-                                        match_name: None,
-                                        name: Some(
-                                            "Fill 1",
-                                        ),
-                                        fill_enabled: Some(
-                                            true,
-                                        ),
-                                        opacity: Property {
-                                            value: Fixed(
-                                                100.0,
+                                number_of_properties: None,
+                                items: [
+                                    Shape(
+                                        Shape {
+                                            match_name: None,
+                                            name: Some(
+                                                "Path 1",
                                             ),
-                                            expression: None,
-                                            index: None,
+                                            direction: None,
+                                            closed: true,
+                                            vertices: Property {
+                                                value: Fixed(
+                                                    ShapeValue {
+                                                        closed: None,
+                                                        in_point: [
+                                                            (
+                                                                1.239,
+                                                                -1.488,
+                                                            ),
+                                                            (
+                                                                8.272,
+                                                                -1.061,
+                                                            ),
+                                                            (
+                                                                -1.915,
+                                                                0.245,
+                                                            ),
+                                                            (
+                                                                -6.074,
+                                                                7.293,
+                                                            ),
+                                                        ],
+                                                        out_point: [
+                                                            (
+                                                                -5.55,
+                                                                6.664,
+                                                            ),
+                                                            (
+                                                                -1.892,
+                                                                0.242,
+                                                            ),
+                                                            (
+                                                                9.022,
+                                                                -1.157,
+                                                            ),
+                                                            (
+                                                                1.229,
+                                                                -1.475,
+                                                            ),
+                                                        ],
+                                                        vertices: [
+                                                            (
+                                                                10.752,
+                                                                -5.909,
+                                                            ),
+                                                            (
+                                                                -12.187,
+                                                                4.152,
+                                                            ),
+                                                            (
+                                                                -12.187,
+                                                                7.152,
+                                                            ),
+                                                            (
+                                                                12.873,
+                                                                -3.788,
+                                                            ),
+                                                        ],
+                                                    },
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
                                         },
-                                        color: Property {
-                                            value: Fixed(
-                                                [
-                                                    255.0,
-                                                    159.0,
-                                                    87.0,
-                                                    255.0,
-                                                ],
+                                    ),
+                                    Fill(
+                                        Fill {
+                                            match_name: None,
+                                            name: Some(
+                                                "Fill 1",
                                             ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
-                                ),
-                                Transform(
-                                    Transform {
-                                        name: None,
-                                        anchor_point: Property {
-                                            value: Fixed(
-                                                [
-                                                    0.0,
-                                                    0.0,
-                                                ],
+                                            fill_enabled: Some(
+                                                true,
                                             ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        position: Property {
-                                            value: Fixed(
-                                                [
-                                                    19.563,
-                                                    13.599,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        scale: Property {
-                                            value: Fixed(
-                                                [
+                                            opacity: Property {
+                                                value: Fixed(
                                                     100.0,
-                                                    100.0,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        rotation: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        opacity: Property {
-                                            value: Fixed(
-                                                100.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        skew: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        skew_axis: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
-                                ),
-                            ],
-                        },
-                    ),
-                    Group(
-                        Group {
-                            match_name: None,
-                            name: Some(
-                                "Group 3",
-                            ),
-                            number_of_properties: None,
-                            items: [
-                                Shape(
-                                    Shape {
-                                        match_name: None,
-                                        name: Some(
-                                            "Path 1",
-                                        ),
-                                        direction: None,
-                                        closed: true,
-                                        vertices: Property {
-                                            value: Fixed(
-                                                ShapeValue {
-                                                    closed: None,
-                                                    in_point: [
-                                                        (
-                                                            0.0,
-                                                            -9.527,
-                                                        ),
-                                                        (
-                                                            10.493,
-                                                            0.0,
-                                                        ),
-                                                        (
-                                                            0.0,
-                                                            9.527,
-                                                        ),
-                                                        (
-                                                            -10.493,
-                                                            0.0,
-                                                        ),
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            color: Property {
+                                                value: Fixed(
+                                                    [
+                                                        255.0,
+                                                        159.0,
+                                                        87.0,
+                                                        255.0,
                                                     ],
-                                                    out_point: [
-                                                        (
-                                                            0.0,
-                                                            9.527,
-                                                        ),
-                                                        (
-                                                            -10.493,
-                                                            0.0,
-                                                        ),
-                                                        (
-                                                            0.0,
-                                                            -9.527,
-                                                        ),
-                                                        (
-                                                            10.493,
-                                                            0.0,
-                                                        ),
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                        },
+                                    ),
+                                    Transform(
+                                        Transform {
+                                            name: None,
+                                            anchor_point: Property {
+                                                value: Fixed(
+                                                    [
+                                                        0.0,
+                                                        0.0,
                                                     ],
-                                                    vertices: [
-                                                        (
-                                                            19.0,
-                                                            0.0,
-                                                        ),
-                                                        (
-                                                            0.0,
-                                                            17.25,
-                                                        ),
-                                                        (
-                                                            -19.0,
-                                                            0.0,
-                                                        ),
-                                                        (
-                                                            0.0,
-                                                            -17.25,
-                                                        ),
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            position: Property {
+                                                value: Fixed(
+                                                    [
+                                                        136.938,
+                                                        13.599,
                                                     ],
-                                                },
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
-                                ),
-                                Fill(
-                                    Fill {
-                                        match_name: None,
-                                        name: Some(
-                                            "Fill 1",
-                                        ),
-                                        fill_enabled: Some(
-                                            true,
-                                        ),
-                                        opacity: Property {
-                                            value: Fixed(
-                                                100.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        color: Property {
-                                            value: Fixed(
-                                                [
-                                                    255.0,
-                                                    238.0,
-                                                    230.0,
-                                                    255.0,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
-                                ),
-                                Transform(
-                                    Transform {
-                                        name: None,
-                                        anchor_point: Property {
-                                            value: Fixed(
-                                                [
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            scale: Property {
+                                                value: Fixed(
+                                                    [
+                                                        100.0,
+                                                        100.0,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            rotation: Property {
+                                                value: Fixed(
                                                     0.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            opacity: Property {
+                                                value: Fixed(
+                                                    100.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            skew: Property {
+                                                value: Fixed(
                                                     0.0,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        position: Property {
-                                            value: Fixed(
-                                                [
-                                                    137.25,
-                                                    17.5,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        scale: Property {
-                                            value: Fixed(
-                                                [
-                                                    100.0,
-                                                    100.0,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        rotation: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        opacity: Property {
-                                            value: Fixed(
-                                                100.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        skew: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        skew_axis: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
-                                ),
-                            ],
-                        },
-                    ),
-                    Group(
-                        Group {
-                            match_name: None,
-                            name: Some(
-                                "Group 4",
-                            ),
-                            number_of_properties: None,
-                            items: [
-                                Shape(
-                                    Shape {
-                                        match_name: None,
-                                        name: Some(
-                                            "Path 1",
-                                        ),
-                                        direction: None,
-                                        closed: true,
-                                        vertices: Property {
-                                            value: Fixed(
-                                                ShapeValue {
-                                                    closed: None,
-                                                    in_point: [
-                                                        (
-                                                            0.0,
-                                                            -9.527,
-                                                        ),
-                                                        (
-                                                            10.493,
-                                                            0.0,
-                                                        ),
-                                                        (
-                                                            0.0,
-                                                            9.527,
-                                                        ),
-                                                        (
-                                                            -10.493,
-                                                            0.0,
-                                                        ),
-                                                    ],
-                                                    out_point: [
-                                                        (
-                                                            0.0,
-                                                            9.527,
-                                                        ),
-                                                        (
-                                                            -10.493,
-                                                            0.0,
-                                                        ),
-                                                        (
-                                                            0.0,
-                                                            -9.527,
-                                                        ),
-                                                        (
-                                                            10.493,
-                                                            0.0,
-                                                        ),
-                                                    ],
-                                                    vertices: [
-                                                        (
-                                                            19.0,
-                                                            0.0,
-                                                        ),
-                                                        (
-                                                            0.0,
-                                                            17.25,
-                                                        ),
-                                                        (
-                                                            -19.0,
-                                                            0.0,
-                                                        ),
-                                                        (
-                                                            0.0,
-                                                            -17.25,
-                                                        ),
-                                                    ],
-                                                },
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
-                                ),
-                                Fill(
-                                    Fill {
-                                        match_name: None,
-                                        name: Some(
-                                            "Fill 1",
-                                        ),
-                                        fill_enabled: Some(
-                                            true,
-                                        ),
-                                        opacity: Property {
-                                            value: Fixed(
-                                                100.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        color: Property {
-                                            value: Fixed(
-                                                [
-                                                    255.0,
-                                                    238.0,
-                                                    230.0,
-                                                    255.0,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
-                                ),
-                                Transform(
-                                    Transform {
-                                        name: None,
-                                        anchor_point: Property {
-                                            value: Fixed(
-                                                [
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            skew_axis: Property {
+                                                value: Fixed(
                                                     0.0,
-                                                    0.0,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
                                         },
-                                        position: Property {
-                                            value: Fixed(
-                                                [
-                                                    19.25,
-                                                    17.5,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        scale: Property {
-                                            value: Fixed(
-                                                [
-                                                    100.0,
-                                                    100.0,
-                                                ],
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        rotation: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        opacity: Property {
-                                            value: Fixed(
-                                                100.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        skew: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                        skew_axis: Property {
-                                            value: Fixed(
-                                                0.0,
-                                            ),
-                                            expression: None,
-                                            index: None,
-                                        },
-                                    },
+                                    ),
+                                ],
+                            },
+                        ),
+                        Group(
+                            Group {
+                                match_name: None,
+                                name: Some(
+                                    "Group 2",
                                 ),
-                            ],
-                        },
-                    ),
-                ],
+                                number_of_properties: None,
+                                items: [
+                                    Shape(
+                                        Shape {
+                                            match_name: None,
+                                            name: Some(
+                                                "Path 1",
+                                            ),
+                                            direction: None,
+                                            closed: true,
+                                            vertices: Property {
+                                                value: Fixed(
+                                                    ShapeValue {
+                                                        closed: None,
+                                                        in_point: [
+                                                            (
+                                                                -1.229,
+                                                                -1.475,
+                                                            ),
+                                                            (
+                                                                -9.023,
+                                                                -1.156,
+                                                            ),
+                                                            (
+                                                                1.891,
+                                                                0.243,
+                                                            ),
+                                                            (
+                                                                5.55,
+                                                                6.663,
+                                                            ),
+                                                        ],
+                                                        out_point: [
+                                                            (
+                                                                6.074,
+                                                                7.293,
+                                                            ),
+                                                            (
+                                                                1.915,
+                                                                0.246,
+                                                            ),
+                                                            (
+                                                                -8.273,
+                                                                -1.06,
+                                                            ),
+                                                            (
+                                                                -1.239,
+                                                                -1.488,
+                                                            ),
+                                                        ],
+                                                        vertices: [
+                                                            (
+                                                                -12.873,
+                                                                -3.788,
+                                                            ),
+                                                            (
+                                                                12.187,
+                                                                7.151,
+                                                            ),
+                                                            (
+                                                                12.187,
+                                                                4.151,
+                                                            ),
+                                                            (
+                                                                -10.753,
+                                                                -5.909,
+                                                            ),
+                                                        ],
+                                                    },
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                        },
+                                    ),
+                                    Fill(
+                                        Fill {
+                                            match_name: None,
+                                            name: Some(
+                                                "Fill 1",
+                                            ),
+                                            fill_enabled: Some(
+                                                true,
+                                            ),
+                                            opacity: Property {
+                                                value: Fixed(
+                                                    100.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            color: Property {
+                                                value: Fixed(
+                                                    [
+                                                        255.0,
+                                                        159.0,
+                                                        87.0,
+                                                        255.0,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                        },
+                                    ),
+                                    Transform(
+                                        Transform {
+                                            name: None,
+                                            anchor_point: Property {
+                                                value: Fixed(
+                                                    [
+                                                        0.0,
+                                                        0.0,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            position: Property {
+                                                value: Fixed(
+                                                    [
+                                                        19.563,
+                                                        13.599,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            scale: Property {
+                                                value: Fixed(
+                                                    [
+                                                        100.0,
+                                                        100.0,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            rotation: Property {
+                                                value: Fixed(
+                                                    0.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            opacity: Property {
+                                                value: Fixed(
+                                                    100.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            skew: Property {
+                                                value: Fixed(
+                                                    0.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            skew_axis: Property {
+                                                value: Fixed(
+                                                    0.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                        },
+                                    ),
+                                ],
+                            },
+                        ),
+                        Group(
+                            Group {
+                                match_name: None,
+                                name: Some(
+                                    "Group 3",
+                                ),
+                                number_of_properties: None,
+                                items: [
+                                    Shape(
+                                        Shape {
+                                            match_name: None,
+                                            name: Some(
+                                                "Path 1",
+                                            ),
+                                            direction: None,
+                                            closed: true,
+                                            vertices: Property {
+                                                value: Fixed(
+                                                    ShapeValue {
+                                                        closed: None,
+                                                        in_point: [
+                                                            (
+                                                                0.0,
+                                                                -9.527,
+                                                            ),
+                                                            (
+                                                                10.493,
+                                                                0.0,
+                                                            ),
+                                                            (
+                                                                0.0,
+                                                                9.527,
+                                                            ),
+                                                            (
+                                                                -10.493,
+                                                                0.0,
+                                                            ),
+                                                        ],
+                                                        out_point: [
+                                                            (
+                                                                0.0,
+                                                                9.527,
+                                                            ),
+                                                            (
+                                                                -10.493,
+                                                                0.0,
+                                                            ),
+                                                            (
+                                                                0.0,
+                                                                -9.527,
+                                                            ),
+                                                            (
+                                                                10.493,
+                                                                0.0,
+                                                            ),
+                                                        ],
+                                                        vertices: [
+                                                            (
+                                                                19.0,
+                                                                0.0,
+                                                            ),
+                                                            (
+                                                                0.0,
+                                                                17.25,
+                                                            ),
+                                                            (
+                                                                -19.0,
+                                                                0.0,
+                                                            ),
+                                                            (
+                                                                0.0,
+                                                                -17.25,
+                                                            ),
+                                                        ],
+                                                    },
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                        },
+                                    ),
+                                    Fill(
+                                        Fill {
+                                            match_name: None,
+                                            name: Some(
+                                                "Fill 1",
+                                            ),
+                                            fill_enabled: Some(
+                                                true,
+                                            ),
+                                            opacity: Property {
+                                                value: Fixed(
+                                                    100.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            color: Property {
+                                                value: Fixed(
+                                                    [
+                                                        255.0,
+                                                        238.0,
+                                                        230.0,
+                                                        255.0,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                        },
+                                    ),
+                                    Transform(
+                                        Transform {
+                                            name: None,
+                                            anchor_point: Property {
+                                                value: Fixed(
+                                                    [
+                                                        0.0,
+                                                        0.0,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            position: Property {
+                                                value: Fixed(
+                                                    [
+                                                        137.25,
+                                                        17.5,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            scale: Property {
+                                                value: Fixed(
+                                                    [
+                                                        100.0,
+                                                        100.0,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            rotation: Property {
+                                                value: Fixed(
+                                                    0.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            opacity: Property {
+                                                value: Fixed(
+                                                    100.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            skew: Property {
+                                                value: Fixed(
+                                                    0.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            skew_axis: Property {
+                                                value: Fixed(
+                                                    0.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                        },
+                                    ),
+                                ],
+                            },
+                        ),
+                        Group(
+                            Group {
+                                match_name: None,
+                                name: Some(
+                                    "Group 4",
+                                ),
+                                number_of_properties: None,
+                                items: [
+                                    Shape(
+                                        Shape {
+                                            match_name: None,
+                                            name: Some(
+                                                "Path 1",
+                                            ),
+                                            direction: None,
+                                            closed: true,
+                                            vertices: Property {
+                                                value: Fixed(
+                                                    ShapeValue {
+                                                        closed: None,
+                                                        in_point: [
+                                                            (
+                                                                0.0,
+                                                                -9.527,
+                                                            ),
+                                                            (
+                                                                10.493,
+                                                                0.0,
+                                                            ),
+                                                            (
+                                                                0.0,
+                                                                9.527,
+                                                            ),
+                                                            (
+                                                                -10.493,
+                                                                0.0,
+                                                            ),
+                                                        ],
+                                                        out_point: [
+                                                            (
+                                                                0.0,
+                                                                9.527,
+                                                            ),
+                                                            (
+                                                                -10.493,
+                                                                0.0,
+                                                            ),
+                                                            (
+                                                                0.0,
+                                                                -9.527,
+                                                            ),
+                                                            (
+                                                                10.493,
+                                                                0.0,
+                                                            ),
+                                                        ],
+                                                        vertices: [
+                                                            (
+                                                                19.0,
+                                                                0.0,
+                                                            ),
+                                                            (
+                                                                0.0,
+                                                                17.25,
+                                                            ),
+                                                            (
+                                                                -19.0,
+                                                                0.0,
+                                                            ),
+                                                            (
+                                                                0.0,
+                                                                -17.25,
+                                                            ),
+                                                        ],
+                                                    },
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                        },
+                                    ),
+                                    Fill(
+                                        Fill {
+                                            match_name: None,
+                                            name: Some(
+                                                "Fill 1",
+                                            ),
+                                            fill_enabled: Some(
+                                                true,
+                                            ),
+                                            opacity: Property {
+                                                value: Fixed(
+                                                    100.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            color: Property {
+                                                value: Fixed(
+                                                    [
+                                                        255.0,
+                                                        238.0,
+                                                        230.0,
+                                                        255.0,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                        },
+                                    ),
+                                    Transform(
+                                        Transform {
+                                            name: None,
+                                            anchor_point: Property {
+                                                value: Fixed(
+                                                    [
+                                                        0.0,
+                                                        0.0,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            position: Property {
+                                                value: Fixed(
+                                                    [
+                                                        19.25,
+                                                        17.5,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            scale: Property {
+                                                value: Fixed(
+                                                    [
+                                                        100.0,
+                                                        100.0,
+                                                    ],
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            rotation: Property {
+                                                value: Fixed(
+                                                    0.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            opacity: Property {
+                                                value: Fixed(
+                                                    100.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            skew: Property {
+                                                value: Fixed(
+                                                    0.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                            skew_axis: Property {
+                                                value: Fixed(
+                                                    0.0,
+                                                ),
+                                                expression: None,
+                                                index: None,
+                                            },
+                                        },
+                                    ),
+                                ],
+                            },
+                        ),
+                    ],
+                },
             },
         ),
     ],

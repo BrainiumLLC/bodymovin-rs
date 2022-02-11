@@ -36,7 +36,7 @@ pub struct Bodymovin {
     #[serde(rename = "nm")]
     pub name: Option<String>,
     #[serde(default)]
-    pub layers: Vec<layers::Layer>,
+    pub layers: Vec<layers::AnyLayer>,
     // pub assets: Vec<Asset>,
     // pub chars: Vec<Char>,
 }
