@@ -3,6 +3,7 @@ pub mod helpers;
 pub mod layers;
 pub mod properties;
 pub mod shapes;
+pub mod sources;
 mod util;
 
 use serde::Deserialize;
@@ -37,8 +38,10 @@ pub struct Bodymovin {
     pub name: Option<String>,
     #[serde(default)]
     pub layers: Vec<layers::AnyLayer>,
-    // pub assets: Vec<Asset>,
-    // pub chars: Vec<Char>,
+    #[serde(default)]
+    pub assets: Vec<sources::Asset>,
+    #[serde(default)]
+    pub chars: Vec<sources::Char>,
 }
 
 impl Bodymovin {

@@ -6111,4 +6111,6 @@ Bodymovin {
             },
         ),
     ],
+    assets: [],
+    chars: [],
 }

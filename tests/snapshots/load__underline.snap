@@ -3095,4 +3095,1979 @@ Bodymovin {
             },
         ),
     ],
+    assets: [
+        Image(
+            Image {
+                id: "image_0",
+                width: 483,
+                height: 660,
+                name: "img_0.png",
+                path: "images/",
+            },
+        ),
+        Image(
+            Image {
+                id: "image_1",
+                width: 119,
+                height: 178,
+                name: "img_1.png",
+                path: "images/",
+            },
+        ),
+        Image(
+            Image {
+                id: "image_2",
+                width: 355,
+                height: 556,
+                name: "img_2.png",
+                path: "images/",
+            },
+        ),
+        Image(
+            Image {
+                id: "image_3",
+                width: 370,
+                height: 370,
+                name: "img_3.png",
+                path: "images/",
+            },
+        ),
+        Image(
+            Image {
+                id: "image_4",
+                width: 500,
+                height: 500,
+                name: "img_4.png",
+                path: "images/",
+            },
+        ),
+        Image(
+            Image {
+                id: "image_5",
+                width: 2634,
+                height: 5700,
+                name: "img_5.jpg",
+                path: "images/",
+            },
+        ),
+        PreComp(
+            PreComp {
+                id: "comp_0",
+                layers: [
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            59.5,
+                                            89.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Animated(
+                                        [
+                                            MultiDimensionalKeyframe {
+                                                start_value: Some(
+                                                    [
+                                                        880.5,
+                                                        5022.0,
+                                                        0.0,
+                                                    ],
+                                                ),
+                                                end_value: None,
+                                                start_time: 22.0,
+                                                hold: false,
+                                                bezier: Some(
+                                                    Bezier1d {
+                                                        in_value: ControlPoint1d {
+                                                            x: 0.833,
+                                                            y: 0.833,
+                                                        },
+                                                        out_value: ControlPoint1d {
+                                                            x: 0.167,
+                                                            y: 0.167,
+                                                        },
+                                                    },
+                                                ),
+                                                spatial_bezier: Some(
+                                                    SpatialBezier {
+                                                        in_value: [
+                                                            -170.0,
+                                                            0.0,
+                                                            0.0,
+                                                        ],
+                                                        out_value: [
+                                                            170.0,
+                                                            0.0,
+                                                            0.0,
+                                                        ],
+                                                    },
+                                                ),
+                                            },
+                                            MultiDimensionalKeyframe {
+                                                start_value: Some(
+                                                    [
+                                                        1900.5,
+                                                        5022.0,
+                                                        0.0,
+                                                    ],
+                                                ),
+                                                end_value: None,
+                                                start_time: 64.0,
+                                                hold: false,
+                                                bezier: None,
+                                                spatial_bezier: None,
+                                            },
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Animated(
+                                        [
+                                            ScalarKeyframe {
+                                                start_value: Some(
+                                                    DestructuredScalarValue(
+                                                        100.0,
+                                                    ),
+                                                ),
+                                                end_value: None,
+                                                start_time: 54.0,
+                                                hold: false,
+                                                bezier: Some(
+                                                    Bezier1d {
+                                                        in_value: ControlPoint1d {
+                                                            x: 0.833,
+                                                            y: 0.833,
+                                                        },
+                                                        out_value: ControlPoint1d {
+                                                            x: 0.167,
+                                                            y: 0.167,
+                                                        },
+                                                    },
+                                                ),
+                                            },
+                                            ScalarKeyframe {
+                                                start_value: Some(
+                                                    DestructuredScalarValue(
+                                                        0.0,
+                                                    ),
+                                                ),
+                                                end_value: None,
+                                                start_time: 64.0,
+                                                hold: false,
+                                                bezier: None,
+                                            },
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 1,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 22.0,
+                            out_point: 1822.0,
+                            start_time: 22.0,
+                            name: Some(
+                                "SliderArrow.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_1",
+                            },
+                        },
+                    ),
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            59.5,
+                                            89.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Animated(
+                                        [
+                                            MultiDimensionalKeyframe {
+                                                start_value: Some(
+                                                    [
+                                                        880.5,
+                                                        5022.0,
+                                                        0.0,
+                                                    ],
+                                                ),
+                                                end_value: None,
+                                                start_time: 10.0,
+                                                hold: false,
+                                                bezier: Some(
+                                                    Bezier1d {
+                                                        in_value: ControlPoint1d {
+                                                            x: 0.833,
+                                                            y: 0.833,
+                                                        },
+                                                        out_value: ControlPoint1d {
+                                                            x: 0.167,
+                                                            y: 0.167,
+                                                        },
+                                                    },
+                                                ),
+                                                spatial_bezier: Some(
+                                                    SpatialBezier {
+                                                        in_value: [
+                                                            -170.0,
+                                                            0.0,
+                                                            0.0,
+                                                        ],
+                                                        out_value: [
+                                                            170.0,
+                                                            0.0,
+                                                            0.0,
+                                                        ],
+                                                    },
+                                                ),
+                                            },
+                                            MultiDimensionalKeyframe {
+                                                start_value: Some(
+                                                    [
+                                                        1900.5,
+                                                        5022.0,
+                                                        0.0,
+                                                    ],
+                                                ),
+                                                end_value: None,
+                                                start_time: 52.0,
+                                                hold: false,
+                                                bezier: None,
+                                                spatial_bezier: None,
+                                            },
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Animated(
+                                        [
+                                            ScalarKeyframe {
+                                                start_value: Some(
+                                                    DestructuredScalarValue(
+                                                        100.0,
+                                                    ),
+                                                ),
+                                                end_value: None,
+                                                start_time: 42.0,
+                                                hold: false,
+                                                bezier: Some(
+                                                    Bezier1d {
+                                                        in_value: ControlPoint1d {
+                                                            x: 0.833,
+                                                            y: 0.833,
+                                                        },
+                                                        out_value: ControlPoint1d {
+                                                            x: 0.167,
+                                                            y: 0.167,
+                                                        },
+                                                    },
+                                                ),
+                                            },
+                                            ScalarKeyframe {
+                                                start_value: Some(
+                                                    DestructuredScalarValue(
+                                                        0.0,
+                                                    ),
+                                                ),
+                                                end_value: None,
+                                                start_time: 52.0,
+                                                hold: false,
+                                                bezier: None,
+                                            },
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 2,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 10.0,
+                            out_point: 1810.0,
+                            start_time: 10.0,
+                            name: Some(
+                                "SliderArrow.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_1",
+                            },
+                        },
+                    ),
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            59.5,
+                                            89.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Animated(
+                                        [
+                                            MultiDimensionalKeyframe {
+                                                start_value: Some(
+                                                    [
+                                                        880.5,
+                                                        5022.0,
+                                                        0.0,
+                                                    ],
+                                                ),
+                                                end_value: None,
+                                                start_time: 0.0,
+                                                hold: false,
+                                                bezier: Some(
+                                                    Bezier1d {
+                                                        in_value: ControlPoint1d {
+                                                            x: 0.833,
+                                                            y: 0.833,
+                                                        },
+                                                        out_value: ControlPoint1d {
+                                                            x: 0.167,
+                                                            y: 0.167,
+                                                        },
+                                                    },
+                                                ),
+                                                spatial_bezier: Some(
+                                                    SpatialBezier {
+                                                        in_value: [
+                                                            -170.0,
+                                                            0.0,
+                                                            0.0,
+                                                        ],
+                                                        out_value: [
+                                                            170.0,
+                                                            0.0,
+                                                            0.0,
+                                                        ],
+                                                    },
+                                                ),
+                                            },
+                                            MultiDimensionalKeyframe {
+                                                start_value: Some(
+                                                    [
+                                                        1900.5,
+                                                        5022.0,
+                                                        0.0,
+                                                    ],
+                                                ),
+                                                end_value: None,
+                                                start_time: 42.0,
+                                                hold: false,
+                                                bezier: None,
+                                                spatial_bezier: None,
+                                            },
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Animated(
+                                        [
+                                            ScalarKeyframe {
+                                                start_value: Some(
+                                                    DestructuredScalarValue(
+                                                        100.0,
+                                                    ),
+                                                ),
+                                                end_value: None,
+                                                start_time: 32.0,
+                                                hold: false,
+                                                bezier: Some(
+                                                    Bezier1d {
+                                                        in_value: ControlPoint1d {
+                                                            x: 0.833,
+                                                            y: 0.833,
+                                                        },
+                                                        out_value: ControlPoint1d {
+                                                            x: 0.167,
+                                                            y: 0.167,
+                                                        },
+                                                    },
+                                                ),
+                                            },
+                                            ScalarKeyframe {
+                                                start_value: Some(
+                                                    DestructuredScalarValue(
+                                                        0.0,
+                                                    ),
+                                                ),
+                                                end_value: None,
+                                                start_time: 42.0,
+                                                hold: false,
+                                                bezier: None,
+                                            },
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 3,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 0.0,
+                            out_point: 1800.0,
+                            start_time: 0.0,
+                            name: Some(
+                                "SliderArrow.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_1",
+                            },
+                        },
+                    ),
+                ],
+            },
+        ),
+        PreComp(
+            PreComp {
+                id: "comp_1",
+                layers: [
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            185.0,
+                                            185.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Fixed(
+                                        [
+                                            1736.0,
+                                            1968.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Fixed(
+                                        100.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 1,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 0.0,
+                            out_point: 1800.0,
+                            start_time: 0.0,
+                            name: Some(
+                                "LetterBlock.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_3",
+                            },
+                        },
+                    ),
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            185.0,
+                                            185.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Fixed(
+                                        [
+                                            1312.0,
+                                            1968.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Fixed(
+                                        100.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 2,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 0.0,
+                            out_point: 1800.0,
+                            start_time: 0.0,
+                            name: Some(
+                                "LetterBlock.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_3",
+                            },
+                        },
+                    ),
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            185.0,
+                                            185.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Fixed(
+                                        [
+                                            896.0,
+                                            1968.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Fixed(
+                                        100.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 3,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 0.0,
+                            out_point: 1800.0,
+                            start_time: 0.0,
+                            name: Some(
+                                "LetterBlock.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_3",
+                            },
+                        },
+                    ),
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            185.0,
+                                            185.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Fixed(
+                                        [
+                                            1736.0,
+                                            1560.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Fixed(
+                                        100.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 4,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 0.0,
+                            out_point: 1800.0,
+                            start_time: 0.0,
+                            name: Some(
+                                "LetterBlock.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_3",
+                            },
+                        },
+                    ),
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            185.0,
+                                            185.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Fixed(
+                                        [
+                                            1312.0,
+                                            1560.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Fixed(
+                                        100.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 5,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 0.0,
+                            out_point: 1800.0,
+                            start_time: 0.0,
+                            name: Some(
+                                "LetterBlock.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_3",
+                            },
+                        },
+                    ),
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            185.0,
+                                            185.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Fixed(
+                                        [
+                                            896.0,
+                                            1560.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Fixed(
+                                        100.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 6,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 0.0,
+                            out_point: 1800.0,
+                            start_time: 0.0,
+                            name: Some(
+                                "LetterBlock.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_3",
+                            },
+                        },
+                    ),
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            185.0,
+                                            185.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Fixed(
+                                        [
+                                            1736.0,
+                                            1152.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Fixed(
+                                        100.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 7,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 0.0,
+                            out_point: 1800.0,
+                            start_time: 0.0,
+                            name: Some(
+                                "LetterBlock.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_3",
+                            },
+                        },
+                    ),
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            185.0,
+                                            185.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Fixed(
+                                        [
+                                            1312.0,
+                                            1152.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Fixed(
+                                        100.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 8,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 0.0,
+                            out_point: 1800.0,
+                            start_time: 0.0,
+                            name: Some(
+                                "LetterBlock.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_3",
+                            },
+                        },
+                    ),
+                    Image(
+                        Layer {
+                            transform: Transform {
+                                anchor_point: Property {
+                                    value: Fixed(
+                                        [
+                                            185.0,
+                                            185.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        1,
+                                    ),
+                                },
+                                position: Property {
+                                    value: Fixed(
+                                        [
+                                            896.0,
+                                            1152.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        2,
+                                    ),
+                                },
+                                scale: Property {
+                                    value: Fixed(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        6,
+                                    ),
+                                },
+                                rotation: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        10,
+                                    ),
+                                },
+                                opacity: Property {
+                                    value: Fixed(
+                                        100.0,
+                                    ),
+                                    expression: None,
+                                    index: Some(
+                                        11,
+                                    ),
+                                },
+                                position_x: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_y: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                position_z: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                                skew_axis: Property {
+                                    value: Fixed(
+                                        0.0,
+                                    ),
+                                    expression: None,
+                                    index: None,
+                                },
+                            },
+                            auto_orient: false,
+                            blend_mode: Normal,
+                            is_3d: false,
+                            index: 9,
+                            html_class: Some(
+                                "png",
+                            ),
+                            html_id: None,
+                            in_point: 0.0,
+                            out_point: 1800.0,
+                            start_time: 0.0,
+                            name: Some(
+                                "LetterBlock.png",
+                            ),
+                            masks: [],
+                            stretch: 1.0,
+                            parent: None,
+                            mixin: ImageMixin {
+                                ref_id: "image_3",
+                            },
+                        },
+                    ),
+                ],
+            },
+        ),
+    ],
+    chars: [
+        Char {
+            value: "B",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 60.0,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "A",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 71.9,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "S",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 57.8,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "I",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 27.4,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "C",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 69.0,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: " ",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 30.0,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "T",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 53.3,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "R",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 59.4,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "N",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 78.1,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "G",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 79.0,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "1",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 47.3,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "-",
+            font_family: "Jost*",
+            font_size: 120,
+            font_style: "Medium",
+            width: 21.4,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "U",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 65.5,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "n",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 54.4,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "d",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 58.8,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "e",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 53.8,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "r",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 37.0,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "l",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 24.6,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "i",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 26.6,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "t",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 27.1,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "s",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 42.3,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "o",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 56.3,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "\r",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 0.0,
+            data: None,
+        },
+        Char {
+            value: "p",
+            font_family: "Jost*",
+            font_size: 170,
+            font_style: "Medium",
+            width: 58.8,
+            data: Some(
+                CharData,
+            ),
+        },
+    ],
 }
