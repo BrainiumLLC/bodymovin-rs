@@ -1,0 +1,849 @@
+---
+source: tests/load.rs
+expression: loaded
+---
+Bodymovin {
+    in_point: 0.0,
+    out_point: 480.0,
+    frame_rate: 60.0,
+    width: 2634,
+    is_3d: false,
+    height: 5700,
+    version: "5.7.5",
+    name: Some(
+        "ART Text Flying",
+    ),
+    layers: [
+        Text(
+            Layer {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                0.0,
+                                -88.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            1,
+                        ),
+                    },
+                    position: Property {
+                        value: Animated(
+                            [
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            1684.0,
+                                            4418.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 4.0,
+                                    hold: false,
+                                    bezier: Some(
+                                        Bezier1d {
+                                            in_value: ControlPoint1d {
+                                                x: 0.0,
+                                                y: 1.0,
+                                            },
+                                            out_value: ControlPoint1d {
+                                                x: 0.333,
+                                                y: 0.0,
+                                            },
+                                        },
+                                    ),
+                                    spatial_bezier: Some(
+                                        SpatialBezier {
+                                            in_value: [
+                                                -8.0,
+                                                544.0,
+                                                0.0,
+                                            ],
+                                            out_value: [
+                                                8.0,
+                                                -544.0,
+                                                0.0,
+                                            ],
+                                        },
+                                    ),
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            1732.0,
+                                            1154.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 28.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            2,
+                        ),
+                    },
+                    scale: Property {
+                        value: Animated(
+                            [
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 4.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            160.0,
+                                            160.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 12.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            126.129,
+                                            126.129,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 24.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            90.0,
+                                            90.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 30.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 40.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            6,
+                        ),
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            10,
+                        ),
+                    },
+                    opacity: Property {
+                        value: Animated(
+                            [
+                                ScalarKeyframe {
+                                    start_value: Some(
+                                        DestructuredScalarValue(
+                                            0.0,
+                                        ),
+                                    ),
+                                    end_value: None,
+                                    start_time: 4.0,
+                                    hold: false,
+                                    bezier: Some(
+                                        Bezier1d {
+                                            in_value: ControlPoint1d {
+                                                x: 0.667,
+                                                y: 1.0,
+                                            },
+                                            out_value: ControlPoint1d {
+                                                x: 0.333,
+                                                y: 0.0,
+                                            },
+                                        },
+                                    ),
+                                },
+                                ScalarKeyframe {
+                                    start_value: Some(
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
+                                    ),
+                                    end_value: None,
+                                    start_time: 6.0,
+                                    hold: false,
+                                    bezier: None,
+                                },
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            11,
+                        ),
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 1,
+                html_class: None,
+                html_id: None,
+                in_point: 4.0,
+                out_point: 1804.0,
+                start_time: 4.0,
+                name: Some(
+                    "T 2",
+                ),
+                masks: [],
+                stretch: 1.0,
+                parent: None,
+                mixin: TextMixin {
+                    text: TextData,
+                },
+            },
+        ),
+        Text(
+            Layer {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                0.0,
+                                -88.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            1,
+                        ),
+                    },
+                    position: Property {
+                        value: Animated(
+                            [
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            1356.0,
+                                            4418.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 2.0,
+                                    hold: false,
+                                    bezier: Some(
+                                        Bezier1d {
+                                            in_value: ControlPoint1d {
+                                                x: 0.0,
+                                                y: 1.0,
+                                            },
+                                            out_value: ControlPoint1d {
+                                                x: 0.333,
+                                                y: 0.0,
+                                            },
+                                        },
+                                    ),
+                                    spatial_bezier: Some(
+                                        SpatialBezier {
+                                            in_value: [
+                                                8.0,
+                                                544.0,
+                                                0.0,
+                                            ],
+                                            out_value: [
+                                                -8.0,
+                                                -544.0,
+                                                0.0,
+                                            ],
+                                        },
+                                    ),
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            1308.0,
+                                            1154.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 26.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            2,
+                        ),
+                    },
+                    scale: Property {
+                        value: Animated(
+                            [
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 2.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            160.0,
+                                            160.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 10.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            126.129,
+                                            126.129,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 22.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            90.0,
+                                            90.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 28.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 38.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            6,
+                        ),
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            10,
+                        ),
+                    },
+                    opacity: Property {
+                        value: Animated(
+                            [
+                                ScalarKeyframe {
+                                    start_value: Some(
+                                        DestructuredScalarValue(
+                                            0.0,
+                                        ),
+                                    ),
+                                    end_value: None,
+                                    start_time: 2.0,
+                                    hold: false,
+                                    bezier: Some(
+                                        Bezier1d {
+                                            in_value: ControlPoint1d {
+                                                x: 0.667,
+                                                y: 1.0,
+                                            },
+                                            out_value: ControlPoint1d {
+                                                x: 0.333,
+                                                y: 0.0,
+                                            },
+                                        },
+                                    ),
+                                },
+                                ScalarKeyframe {
+                                    start_value: Some(
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
+                                    ),
+                                    end_value: None,
+                                    start_time: 4.0,
+                                    hold: false,
+                                    bezier: None,
+                                },
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            11,
+                        ),
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 2,
+                html_class: None,
+                html_id: None,
+                in_point: 2.0,
+                out_point: 1802.0,
+                start_time: 2.0,
+                name: Some(
+                    "R 2",
+                ),
+                masks: [],
+                stretch: 1.0,
+                parent: None,
+                mixin: TextMixin {
+                    text: TextData,
+                },
+            },
+        ),
+        Text(
+            Layer {
+                transform: Transform {
+                    anchor_point: Property {
+                        value: Fixed(
+                            [
+                                0.0,
+                                -96.0,
+                                0.0,
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            1,
+                        ),
+                    },
+                    position: Property {
+                        value: Animated(
+                            [
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            940.0,
+                                            4418.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 0.0,
+                                    hold: false,
+                                    bezier: Some(
+                                        Bezier1d {
+                                            in_value: ControlPoint1d {
+                                                x: 0.0,
+                                                y: 1.0,
+                                            },
+                                            out_value: ControlPoint1d {
+                                                x: 0.333,
+                                                y: 0.0,
+                                            },
+                                        },
+                                    ),
+                                    spatial_bezier: Some(
+                                        SpatialBezier {
+                                            in_value: [
+                                                -16.0,
+                                                865.333,
+                                                0.0,
+                                            ],
+                                            out_value: [
+                                                -24.0,
+                                                -1217.333,
+                                                0.0,
+                                            ],
+                                        },
+                                    ),
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            892.0,
+                                            1146.0,
+                                            0.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 24.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            2,
+                        ),
+                    },
+                    scale: Property {
+                        value: Animated(
+                            [
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 0.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            160.0,
+                                            160.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 8.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            126.129,
+                                            126.129,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 20.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            90.0,
+                                            90.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 26.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                                MultiDimensionalKeyframe {
+                                    start_value: Some(
+                                        [
+                                            100.0,
+                                            100.0,
+                                            100.0,
+                                        ],
+                                    ),
+                                    end_value: None,
+                                    start_time: 36.0,
+                                    hold: false,
+                                    bezier: None,
+                                    spatial_bezier: None,
+                                },
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            6,
+                        ),
+                    },
+                    rotation: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: Some(
+                            10,
+                        ),
+                    },
+                    opacity: Property {
+                        value: Animated(
+                            [
+                                ScalarKeyframe {
+                                    start_value: Some(
+                                        DestructuredScalarValue(
+                                            0.0,
+                                        ),
+                                    ),
+                                    end_value: None,
+                                    start_time: 0.0,
+                                    hold: false,
+                                    bezier: Some(
+                                        Bezier1d {
+                                            in_value: ControlPoint1d {
+                                                x: 0.667,
+                                                y: 1.0,
+                                            },
+                                            out_value: ControlPoint1d {
+                                                x: 0.333,
+                                                y: 0.0,
+                                            },
+                                        },
+                                    ),
+                                },
+                                ScalarKeyframe {
+                                    start_value: Some(
+                                        DestructuredScalarValue(
+                                            100.0,
+                                        ),
+                                    ),
+                                    end_value: None,
+                                    start_time: 2.0,
+                                    hold: false,
+                                    bezier: None,
+                                },
+                            ],
+                        ),
+                        expression: None,
+                        index: Some(
+                            11,
+                        ),
+                    },
+                    position_x: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_y: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    position_z: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                    skew_axis: Property {
+                        value: Fixed(
+                            0.0,
+                        ),
+                        expression: None,
+                        index: None,
+                    },
+                },
+                auto_orient: false,
+                blend_mode: Normal,
+                is_3d: false,
+                index: 3,
+                html_class: None,
+                html_id: None,
+                in_point: 0.0,
+                out_point: 1800.0,
+                start_time: 0.0,
+                name: Some(
+                    "A 2",
+                ),
+                masks: [],
+                stretch: 1.0,
+                parent: None,
+                mixin: TextMixin {
+                    text: TextData,
+                },
+            },
+        ),
+    ],
+    assets: [],
+    chars: [
+        Char {
+            value: "A",
+            font_family: "Jost*",
+            font_size: 260,
+            font_style: "Medium",
+            width: 71.9,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "R",
+            font_family: "Jost*",
+            font_size: 260,
+            font_style: "Medium",
+            width: 59.4,
+            data: Some(
+                CharData,
+            ),
+        },
+        Char {
+            value: "T",
+            font_family: "Jost*",
+            font_size: 260,
+            font_style: "Medium",
+            width: 53.3,
+            data: Some(
+                CharData,
+            ),
+        },
+    ],
+}

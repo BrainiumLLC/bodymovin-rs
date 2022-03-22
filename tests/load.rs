@@ -11,13 +11,13 @@ fn test_file(file: &str) {
 }
 
 #[test]
-fn test_shapes() {
-    test_file("shapes.json")
+fn test_4thofjuly2018() {
+    test_file("4thofjuly2018.json")
 }
 
 #[test]
-fn test_4thofjuly2018() {
-    test_file("4thofjuly2018.json")
+fn test_flying_text() {
+    test_file("flying_text.json")
 }
 
 #[test]
@@ -38,6 +38,11 @@ fn test_lottie_gatin() {
 #[test]
 fn test_lottie_happy2016() {
     test_file("lottie_happy2016.json")
+}
+
+#[test]
+fn test_shapes() {
+    test_file("shapes.json")
 }
 
 #[test]
