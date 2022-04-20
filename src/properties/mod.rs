@@ -30,7 +30,7 @@ where
 }
 
 #[derive(Clone, Debug, Deserialize)]
-pub struct ControlPoint1d {
+pub struct ControlPoint2d {
     #[serde(deserialize_with = "destructure")]
     pub x: f64,
     #[serde(deserialize_with = "destructure")]
@@ -38,25 +38,19 @@ pub struct ControlPoint1d {
 }
 
 #[derive(Clone, Debug, Deserialize)]
-pub struct ControlPoint3d {
-    pub x: [f64; 3],
-    pub y: [f64; 3],
+pub struct Bezier2d {
+    #[serde(rename = "i")]
+    pub in_value: ControlPoint2d,
+    #[serde(rename = "o")]
+    pub out_value: ControlPoint2d,
 }
 
 #[derive(Clone, Debug, Deserialize)]
-pub struct Bezier1d {
+pub struct BezierEase {
     #[serde(rename = "i")]
-    pub in_value: ControlPoint1d,
+    pub in_value: Vec<f64>,
     #[serde(rename = "o")]
-    pub out_value: ControlPoint1d,
-}
-
-#[derive(Clone, Debug, Deserialize)]
-pub struct Bezier3d {
-    #[serde(rename = "i")]
-    pub in_value: ControlPoint3d,
-    #[serde(rename = "o")]
-    pub out_value: ControlPoint3d,
+    pub out_value: Vec<f64>,
 }
 
 #[derive(Clone, Debug, Deserialize)]
@@ -65,6 +59,36 @@ pub struct SpatialBezier {
     pub in_value: Vec<f64>,
     #[serde(rename = "to")]
     pub out_value: Vec<f64>,
+}
+
+impl SpatialBezier {
+    pub fn new(in_value: Vec<f64>, out_value: Vec<f64>) -> Self {
+        assert_eq!(
+            in_value.len(),
+            out_value.len(),
+            "Attempted to construct Bezier spline from points with different dimensionalities."
+        );
+        Self {
+            in_value,
+            out_value,
+        }
+    }
+    pub fn scaled(&self, scale: &Vec<f64>) -> Self {
+        Self {
+            in_value: self
+                .in_value
+                .iter()
+                .zip(scale.iter())
+                .map(|(val, scale)| val * scale)
+                .collect(),
+            out_value: self
+                .out_value
+                .iter()
+                .zip(scale.iter())
+                .map(|(val, scale)| val * scale)
+                .collect(),
+        }
+    }
 }
 
 #[derive(Debug, Deserialize)]

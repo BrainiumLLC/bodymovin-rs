@@ -7,8 +7,8 @@ pub struct Image {
     pub width: u64,
     #[serde(rename = "h")]
     pub height: u64,
-    #[serde(rename = "p")]
-    pub name: String,
     #[serde(rename = "u")]
     pub path: String,
+    #[serde(rename = "p")]
+    pub name: String,
 }
