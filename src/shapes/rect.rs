@@ -4,15 +4,15 @@ use serde::Deserialize;
 #[derive(Debug, Deserialize)]
 pub struct Rect {
     #[serde(rename = "mn")]
-    pub match_name: String,
+    pub match_name: Option<String>,
     #[serde(rename = "nm")]
-    pub name: String,
+    pub name: Option<String>,
     #[serde(rename = "d")]
     pub direction: f64,
     #[serde(rename = "p")]
-    pub position: properties::EitherMultiDimensional,
+    pub position: properties::MultiDimensional,
     #[serde(rename = "s")]
-    pub size: properties::EitherMultiDimensional,
+    pub size: properties::MultiDimensional,
     #[serde(rename = "r")]
-    pub rounded_corners: properties::EitherValue,
+    pub rounded_corners: properties::Scalar,
 }

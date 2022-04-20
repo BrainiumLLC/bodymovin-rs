@@ -4,9 +4,9 @@ use serde::Deserialize;
 #[derive(Debug, Deserialize)]
 pub struct Stroke {
     #[serde(rename = "mn")]
-    pub match_name: String,
+    pub match_name: Option<String>,
     #[serde(rename = "nm")]
-    pub name: String,
+    pub name: Option<String>,
     #[serde(rename = "lc")]
     pub line_cap: helpers::LineCap,
     #[serde(rename = "lj")]
@@ -14,9 +14,9 @@ pub struct Stroke {
     #[serde(rename = "ml")]
     pub miter_limit: Option<f64>,
     #[serde(rename = "o")]
-    pub opacity: properties::EitherValue,
+    pub opacity: properties::Scalar,
     #[serde(rename = "w")]
-    pub width: properties::EitherValue,
+    pub width: properties::Scalar,
     #[serde(rename = "c")]
-    pub color: properties::EitherMultiDimensional,
+    pub color: properties::MultiDimensional,
 }

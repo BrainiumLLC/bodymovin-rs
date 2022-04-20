@@ -1,4 +1,4 @@
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
-pub struct NoValue;
+pub struct NoValue {}

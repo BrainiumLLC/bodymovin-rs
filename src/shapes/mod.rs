@@ -15,7 +15,8 @@ mod trim;
 
 pub use self::{
     ellipse::*, fill::*, gradient_fill::*, gradient_stroke::*, group::*, merge::*, rect::*,
-    repeater::*, rounded_corners::*, shape::*, star::*, stroke::*, transform::*, trim::*,
+    repeater::*, repeater::*, rounded_corners::*, shape::*, star::*, stroke::*, transform::*,
+    trim::*,
 };
 use serde::Deserialize;
 use serde_repr::Deserialize_repr;
@@ -50,6 +51,8 @@ pub enum AnyShape {
     Merge(Merge),
     #[serde(rename = "tm")]
     Trim(Trim),
+    #[serde(rename = "rp")]
+    Repeater(Repeater),
     #[serde(rename = "gr")]
     Group(Group),
     #[serde(rename = "rd")]

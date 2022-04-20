@@ -12,25 +12,25 @@ pub enum StarType {
 #[derive(Debug, Deserialize)]
 pub struct Star {
     #[serde(rename = "mn")]
-    pub match_name: String,
+    pub match_name: Option<String>,
     #[serde(rename = "nm")]
-    pub name: String,
+    pub name: Option<String>,
     #[serde(rename = "d")]
     pub direction: f64,
     #[serde(rename = "p")]
-    pub position: properties::EitherMultiDimensional,
+    pub position: properties::MultiDimensional,
     #[serde(rename = "ir")]
-    pub inner_radius: Option<properties::EitherValue>,
+    pub inner_radius: Option<properties::Scalar>,
     #[serde(rename = "is")]
-    pub inner_roundness: Option<properties::EitherValue>,
+    pub inner_roundness: Option<properties::Scalar>,
     #[serde(rename = "or")]
-    pub outer_radius: properties::EitherValue,
+    pub outer_radius: properties::Scalar,
     #[serde(rename = "os")]
-    pub outer_roundness: properties::EitherValue,
+    pub outer_roundness: properties::Scalar,
     #[serde(rename = "r")]
-    pub rotation: properties::EitherValue,
+    pub rotation: properties::Scalar,
     #[serde(rename = "pt")]
-    pub points: properties::EitherValue,
+    pub points: properties::Scalar,
     #[serde(rename = "sy")]
     pub ty: StarType,
 }

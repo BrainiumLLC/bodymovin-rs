@@ -1,4 +1,6 @@
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
-pub struct Null {}
+pub struct NullMixin {}
+
+pub type Null = super::Layer<NullMixin>;

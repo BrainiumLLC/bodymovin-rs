@@ -17,5 +17,5 @@ serde_repr = "0.1.6"
 thiserror = "1.0.23"
 
 [dev-dependencies]
+env_logger = "0.8.3"
 insta = "1.5.3"
-simple_logger = "1.11.0"
