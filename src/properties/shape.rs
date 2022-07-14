@@ -24,7 +24,7 @@ pub struct ShapeKeyframe {
     #[serde(rename = "h", deserialize_with = "util::bool_from_int", default)]
     pub hold: bool,
     #[serde(flatten)]
-    pub bezier: Option<properties::BezierEase>,
+    pub bezier: Option<properties::Bezier3d>,
     #[serde(flatten)]
     pub spatial_bezier: Option<properties::SpatialBezier>,
 }

@@ -28,7 +28,7 @@ pub struct ScalarKeyframe {
     #[serde(rename = "h", deserialize_with = "util::bool_from_int", default)]
     pub hold: bool,
     #[serde(flatten)]
-    pub bezier: Option<properties::Bezier2d>,
+    pub bezier: Option<properties::BezierEase>,
 }
 
 impl ScalarKeyframe {

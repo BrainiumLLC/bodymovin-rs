@@ -15,7 +15,7 @@ pub struct MultiDimensionalKeyframe {
     #[serde(rename = "h", deserialize_with = "util::bool_from_int", default)]
     pub hold: bool,
     #[serde(flatten)]
-    pub bezier: Option<properties::Bezier2d>,
+    pub bezier: Option<properties::BezierEase>,
     #[serde(flatten)]
     pub spatial_bezier: Option<properties::SpatialBezier>,
 }

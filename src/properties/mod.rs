@@ -38,6 +38,12 @@ pub struct ControlPoint2d {
 }
 
 #[derive(Clone, Debug, Deserialize)]
+pub struct ControlPoint3d {
+    pub x: [f64; 3],
+    pub y: [f64; 3],
+}
+
+#[derive(Clone, Debug, Deserialize)]
 pub struct Bezier2d {
     #[serde(rename = "i")]
     pub in_value: ControlPoint2d,
@@ -46,11 +52,18 @@ pub struct Bezier2d {
 }
 
 #[derive(Clone, Debug, Deserialize)]
-pub struct BezierEase {
+pub struct Bezier3d {
     #[serde(rename = "i")]
-    pub in_value: Vec<f64>,
+    pub in_value: ControlPoint3d,
     #[serde(rename = "o")]
-    pub out_value: Vec<f64>,
+    pub out_value: ControlPoint3d,
+}
+
+#[derive(Clone, Debug, Deserialize)]
+#[serde(untagged)]
+pub enum BezierEase {
+    _2D(Bezier2d),
+    _3D(Bezier3d),
 }
 
 #[derive(Clone, Debug, Deserialize)]

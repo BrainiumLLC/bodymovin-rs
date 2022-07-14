@@ -28,8 +28,8 @@ pub struct Layer<M> {
     #[serde(rename = "masksProperties", default)]
     pub masks: Vec<helpers::Mask>,
     // TODO: this doesn't seem to work!
-    #[serde(rename = "ef", default)]
-    pub effects: Vec<effects::Index>,
+    // #[serde(rename = "ef", default)]
+    // pub effects: Vec<effects::Index>,
     #[serde(rename = "sr", default = "util::one_please")]
     pub stretch: f64,
     #[serde(rename = "parent")]
