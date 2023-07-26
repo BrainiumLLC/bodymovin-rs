@@ -39,40 +39,37 @@ impl<'de> Deserialize<'de> for AnyLayer {
             Text = 5,
         }
 
-        let tagged = deserializer.deserialize_any(TaggedContentVisitor::<LayerTag>::new(
-            "ty",
-            "internally tagged enum Layer",
-        ))?;
-        match tagged.tag {
+        let (layer_tag, content) = deserializer.deserialize_any(
+            TaggedContentVisitor::<LayerTag>::new("ty", "internally tagged enum Layer"),
+        )?;
+        match layer_tag {
             LayerTag::PreComp => {
                 log::info!("parsing `PreComp`");
-                PreComp::deserialize(ContentDeserializer::<D::Error>::new(tagged.content))
+                PreComp::deserialize(ContentDeserializer::<D::Error>::new(content))
                     .map(AnyLayer::PreComp)
             }
             LayerTag::Solid => {
                 log::info!("parsing `Solid`");
-                Solid::deserialize(ContentDeserializer::<D::Error>::new(tagged.content))
+                Solid::deserialize(ContentDeserializer::<D::Error>::new(content))
                     .map(AnyLayer::Solid)
             }
             LayerTag::Image => {
                 log::info!("parsing `Image`");
-                Image::deserialize(ContentDeserializer::<D::Error>::new(tagged.content))
+                Image::deserialize(ContentDeserializer::<D::Error>::new(content))
                     .map(AnyLayer::Image)
             }
             LayerTag::Null => {
                 log::info!("parsing `Null`");
-                Null::deserialize(ContentDeserializer::<D::Error>::new(tagged.content))
-                    .map(AnyLayer::Null)
+                Null::deserialize(ContentDeserializer::<D::Error>::new(content)).map(AnyLayer::Null)
             }
             LayerTag::Shape => {
                 log::info!("parsing `Shape`");
-                Shape::deserialize(ContentDeserializer::<D::Error>::new(tagged.content))
+                Shape::deserialize(ContentDeserializer::<D::Error>::new(content))
                     .map(AnyLayer::Shape)
             }
             LayerTag::Text => {
                 log::info!("parsing `Text`");
-                Text::deserialize(ContentDeserializer::<D::Error>::new(tagged.content))
-                    .map(AnyLayer::Text)
+                Text::deserialize(ContentDeserializer::<D::Error>::new(content)).map(AnyLayer::Text)
             }
         }
     }
