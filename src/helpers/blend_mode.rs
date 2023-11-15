@@ -19,6 +19,8 @@ pub enum BlendMode {
     Saturation = 13,
     Color = 14,
     Luminosity = 15,
+    Add = 16,
+    HardMix = 17,
 }
 
 impl Default for BlendMode {
